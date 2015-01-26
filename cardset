@@ -1,0 +1,36 @@
+<cards>
+	<card id="bc0f047c-01b1-427f-a439-d451eda06001" name="Fighter">
+		<property name="Type" value="Ship" />
+		<property name="Keywords" value="Fighter" />
+		<property name="Cost" value="2" />
+		<property name="CrewRequirement" value="2" />
+		<property name="Rules" value="" />
+		<property name="Attack" value="1" />
+		<property name="Defense" value="1" />
+		<property name="Initiative" value="2" />
+		<property name="Recycle" value="2" />
+	</card>
+	<card id="bc0f047c-01b1-427f-a439-d451eda06001" name="Corvette">
+		<property name="Type" value="Ship" />
+		<property name="Keywords" value="Corvette" />
+		<property name="Cost" value="3" />
+		<property name="CrewRequirement" value="3" />
+		<property name="Rules" value="" />
+		<property name="Attack" value="1" />
+		<property name="Defense" value="1" />
+		<property name="Initiative" value="2" />
+		<property name="Recycle" value="2" />
+	</card>
+		<card id="bc0f047c-01b1-427f-a439-d451eda06001" name="Frigate">
+		<property name="Type" value="Ship" />
+		<property name="Keywords" value="Frigate" />
+		<property name="Cost" value="3" />
+		<property name="CrewRequirement" value="3" />
+		<property name="Rules" value="" />
+		<property name="Attack" value="1" />
+		<property name="Defense" value="1" />
+		<property name="Initiative" value="2" />
+		<property name="Recycle" value="2" />
+	</card>
+   
+<cards>
