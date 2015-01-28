@@ -1,1 +1,19 @@
-asdasd
+﻿﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="0c563394-08d1-4adc-abac-51550c2dc23f">
+  <section name="Shared" shared="True">
+    	<card qty="20" id="31000a40-f835-4d50-8e76-d41266250000">Fighter</card>
+	<card qty="10" id="31000a40-f835-4d50-8e76-d41266250001">Corvette</card>
+   	<card qty="5" id="31000a40-f835-4d50-8e76-d41266250002">Frigate</card>
+	<card qty="5" id="31000a40-f835-4d50-8e76-d41266250003">Destroyer</card>
+	<card qty="10" id="31000a40-f835-4d50-8e76-d41266250004">Resouce Ship</card>
+	<card qty="4" id="31000a40-f835-4d50-8e76-d41266250005">Mining Asteroid</card>
+	<card qty="2" id="31000a40-f835-4d50-8e76-d41266250006">Command Station</card>
+	<card qty="2" id="31000a40-f835-4d50-8e76-d41266250007">Acadamy</card>
+	<card qty="5" id="31000a40-f835-4d50-8e76-d41266250008">Defense Platform</card>
+	<card qty="2" id="31000a40-f835-4d50-8e76-d41266250009">Tradepost</card>
+	<card qty="2" id="31000a40-f835-4d50-8e76-d41266250010">Research Station</card>
+  </section>
+  <section name="Main" shared="False" />
+  <section name="Main2" shared="False" />
+  <notes><![CDATA[]]></notes>
+</deck>
