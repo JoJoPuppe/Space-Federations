@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<set name="SpaceCommad" id="e1318da0-089f-4d67-80ae-c27bdb10d137" gameId="8f437fff-fc8f-4abf-a2e6-f77ebff2ac6d" gameVersion="1.0.0" version="0.1">
+
+<cards>
+ 	<card id="31000a40-f835-4d50-8e76-d41266250000" name="Fighter">
+		<property name="Cost" value="3" />
+		<property name="Type" value="Ship" />
+		<property name="Traits" value="Fighter" />
+		<property name="Crew Requirement" value="2" />
+		<property name="Crew" value="" />
+		<property name="Defense" value="1" />
+		<property name="Attack" value="1" />
+		<property name="Initiative" value="2" />
+		<property name="Salvage" value="1" />
+		<property name="Text" value="Fast moving Interceptor" />
+	</card>
+	<card id="31000a40-f835-4d50-8e76-d41266250001" name="Corvette">
+		<property name="Cost" value="4" />
+		<property name="Type" value="Ship" />
+		<property name="Traits" value="Corvette" />
+		<property name="Crew Requirement" value="3" />
+		<property name="Crew" value="" />
+		<property name="Defense" value="2" />
+		<property name="Attack" value="2" />
+		<property name="Initiative" value="2" />
+		<property name="Salvage" value="2" />
+		<property name="Text" value="Well balanced Battelship" />
+	</card>
+	<card id="31000a40-f835-4d50-8e76-d41266250002" name="Frigate">
+		<property name="Cost" value="7" />
+		<property name="Type" value="Ship" />
+		<property name="Traits" value="Frigate" />
+		<property name="Crew Requirement" value="6" />
+		<property name="Crew" value="" />
+		<property name="Defense" value="5" />
+		<property name="Attack" value="4" />
+		<property name="Initiative" value="2" />
+		<property name="Salvage" value="3" />
+		<property name="Text" value="All time Favorite" />
+	</card>
+	<card id="31000a40-f835-4d50-8e76-d41266250003" name="Destroyer">
+		<property name="Cost" value="10" />
+		<property name="Type" value="Ship" />
+		<property name="Traits" value="Destroyer" />
+		<property name="Crew Requirement" value="10" />
+		<property name="Crew" value="" />
+		<property name="Defense" value="6" />
+		<property name="Attack" value="6" />
+		<property name="Initiative" value="1" />
+		<property name="Salvage" value="4" />
+		<property name="Text" value="Conflict Solver" />
+	</card>
+	<card id="31000a40-f835-4d50-8e76-d41266250004" name="Resource Ship">
+		<property name="Cost" value="2" />
+		<property name="Type" value="Ship" />
+		<property name="Traits" value="Destroyer" />
+		<property name="Crew Requirement" value="2" />
+		<property name="Crew" value="" />
+		<property name="Defense" value="2" />
+		<property name="Attack" value="0" />
+		<property name="Initiative" value="1" />
+		<property name="Salvage" value="1" />
+		<property name="Text" value="when deployed: get +1 Credit" />
+	</card>
+	<card id="31000a40-f835-4d50-8e76-d41266250005" name="Mining Asteroid">
+		<property name="Cost" value="5" />
+		<property name="Type" value="Structure" />
+		<property name="Traits" value="Resource Generator" />
+		<property name="Crew Requirement" value="1" />
+		<property name="Crew" value="" />
+		<property name="Defense" value="" />
+		<property name="Attack" value="" />
+		<property name="Initiative" value="" />
+		<property name="Salvage" value="" />
+		<property name="Text" value="Generating every Round 1 Credit" />
+	</card>
+	<card id="31000a40-f835-4d50-8e76-d41266250006" name="Command Station">
+		<property name="Cost" value="8" />
+		<property name="Type" value="Structure" />
+		<property name="Traits" value="" />
+		<property name="Crew Requirement" value="1" />
+		<property name="Crew" value="" />
+		<property name="Defense" value="" />
+		<property name="Attack" value="" />
+		<property name="Initiative" value="" />
+		<property name="Salvage" value="" />
+		<property name="Text" value="All Ships need -1 Crew Points to deploy" />
+	</card>
+	<card id="31000a40-f835-4d50-8e76-d41266250007" name="Acadamy">
+		<property name="Cost" value="5" />
+		<property name="Type" value="Structure" />
+		<property name="Traits" value="Crew Generator" />
+		<property name="Crew Requirement" value="0" />
+		<property name="Crew" value="" />
+		<property name="Defense" value="" />
+		<property name="Attack" value="" />
+		<property name="Initiative" value="" />
+		<property name="Salvage" value="" />
+		<property name="Text" value="Generating every Round 1 Pilot" />
+	</card>
+	<card id="31000a40-f835-4d50-8e76-d41266250008" name="Defense Platform">
+		<property name="Cost" value="3" />
+		<property name="Type" value="Structure" />
+		<property name="Traits" value="Defense" />
+		<property name="Crew Requirement" value="1" />
+		<property name="Crew" value="" />
+		<property name="Defense" value="" />
+		<property name="Attack" value="" />
+		<property name="Initiative" value="" />
+		<property name="Salvage" value="" />
+		<property name="Text" value="Get +2 DEF" />
+	</card>
+	<card id="31000a40-f835-4d50-8e76-d41266250009" name="Tradepost">
+		<property name="Cost" value="6" />
+		<property name="Type" value="Structure" />
+		<property name="Traits" value="Trade" />
+		<property name="Crew Requirement" value="1" />
+		<property name="Crew" value="" />
+		<property name="Defense" value="" />
+		<property name="Attack" value="" />
+		<property name="Initiative" value="" />
+		<property name="Salvage" value="" />
+		<property name="Text" value="When build: once per turn trade one card of your hand with cost the same or lower with the market" />
+	</card>
+	<card id="31000a40-f835-4d50-8e76-d41266250010" name="Research Station">
+		<property name="Cost" value="6" />
+		<property name="Type" value="Structure" />
+		<property name="Traits" value="Trade" />
+		<property name="Crew Requirement" value="1" />
+		<property name="Crew" value="" />
+		<property name="Defense" value="" />
+		<property name="Attack" value="" />
+		<property name="Initiative" value="" />
+		<property name="Salvage" value="" />
+		<property name="Text" value="When build: once per turn pay 3Cr to upgrade 1 Fighter from your hand to 1 Corvette or 1 Corvette to a Frigate and put them in the discardpile" />
+	</card>
+
+</cards>
+
+</set>
