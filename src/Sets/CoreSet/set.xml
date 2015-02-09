@@ -134,7 +134,138 @@
 		<property name="Salvage" value="" />
 		<property name="Text" value="When build: once per turn pay 3Cr to upgrade 1 Fighter from your hand to 1 Corvette or 1 Corvette to a Frigate and put them in the discardpile" />
 	</card>
-
+	<card id="31000a40-f835-4d50-8e76-d41266250011" name="Pilot">
+		<property name="Cost" value="2" />
+		<property name="Type" value="Crew" />
+		<property name="Keyword" value="Pilot" />
+		<property name="Crew Requirement" value="" />
+		<property name="Crew" value="1" />
+		<property name="Defense" value="" />
+		<property name="Attack" value="" />
+		<property name="Initiative" value="" />
+		<property name="Salvage" value="1" />
+		<property name="Text" value="" />
+	</card>
+	<card id="31000a40-f835-4d50-8e76-d41266250012" name="Captain">
+		<property name="Cost" value="4" />
+		<property name="Type" value="Crew" />
+		<property name="Keyword" value="Officer" />
+		<property name="Crew Requirement" value="" />
+		<property name="Crew" value="3" />
+		<property name="Defense" value="" />
+		<property name="Attack" value="" />
+		<property name="Initiative" value="" />
+		<property name="Salvage" value="2" />
+		<property name="Text" value="if sold draw 1 card" />
+	</card>
+	<card id="31000a40-f835-4d50-8e76-d41266250013" name="Admiral">
+		<property name="Cost" value="7" />
+		<property name="Type" value="Crew" />
+		<property name="Keyword" value="Officer" />
+		<property name="Crew Requirement" value="" />
+		<property name="Crew" value="5" />
+		<property name="Defense" value="" />
+		<property name="Attack" value="" />
+		<property name="Initiative" value="" />
+		<property name="Salvage" value="3" />
+		<property name="Text" value="if sold draw 2 cards" />
+	</card>
+	<card id="31000a40-f835-4d50-8e76-d41266250014" name="Wormhole">
+		<property name="Cost" value="3" />
+		<property name="Type" value="Event" />
+		<property name="Keyword" value="Event" />
+		<property name="Crew Requirement" value="" />
+		<property name="Crew" value="" />
+		<property name="Defense" value="" />
+		<property name="Attack" value="" />
+		<property name="Initiative" value="" />
+		<property name="Salvage" value="" />
+		<property name="Text" value="Discard 3 cards and draw 3 new ones" />
+	</card>
+	<card id="31000a40-f835-4d50-8e76-d41266250015" name="Hyperjump">
+		<property name="Cost" value="3" />
+		<property name="Type" value="Event" />
+		<property name="Keyword" value="Event" />
+		<property name="Crew Requirement" value="" />
+		<property name="Crew" value="" />
+		<property name="Defense" value="" />
+		<property name="Attack" value="" />
+		<property name="Initiative" value="" />
+		<property name="Salvage" value="" />
+		<property name="Text" value="Discard X cards, where X is the Value you can add to your Initiativ" />
+	</card>
+	<card id="31000a40-f835-4d50-8e76-d41266250016" name="Alliance Backup">
+		<property name="Cost" value="3" />
+		<property name="Type" value="Event" />
+		<property name="Keyword" value="Event" />
+		<property name="Crew Requirement" value="" />
+		<property name="Crew" value="" />
+		<property name="Defense" value="" />
+		<property name="Attack" value="" />
+		<property name="Initiative" value="" />
+		<property name="Salvage" value="" />
+		<property name="Text" value="Draw 2 cards" />
+	</card>
+	<card id="31000a40-f835-4d50-8e76-d41266250017" name="Federal Police">
+		<property name="Cost" value="3" />
+		<property name="Type" value="Event" />
+		<property name="Keyword" value="Event" />
+		<property name="Crew Requirement" value="" />
+		<property name="Crew" value="" />
+		<property name="Defense" value="" />
+		<property name="Attack" value="" />
+		<property name="Initiative" value="" />
+		<property name="Salvage" value="" />
+		<property name="Text" value="your opponent must discard a random card" />
+	</card>
+	<card id="31000a40-f835-4d50-8e76-d41266250018" name="Diplomat">
+		<property name="Cost" value="3" />
+		<property name="Type" value="Event" />
+		<property name="Keyword" value="Event" />
+		<property name="Crew Requirement" value="" />
+		<property name="Crew" value="" />
+		<property name="Defense" value="" />
+		<property name="Attack" value="" />
+		<property name="Initiative" value="" />
+		<property name="Salvage" value="" />
+		<property name="Text" value="for this turn add a 4th column to the market" />
+	</card>
+	<card id="31000a40-f835-4d50-8e76-d41266250019" name="Construction Bay Support">
+		<property name="Cost" value="6" />
+		<property name="Type" value="Event" />
+		<property name="Keyword" value="Event" />
+		<property name="Crew Requirement" value="" />
+		<property name="Crew" value="" />
+		<property name="Defense" value="" />
+		<property name="Attack" value="" />
+		<property name="Initiative" value="" />
+		<property name="Salvage" value="" />
+		<property name="Text" value="pay 1 build 2" />
+	</card>
+	<card id="31000a40-f835-4d50-8e76-d41266250020" name="Corruption">
+		<property name="Cost" value="5" />
+		<property name="Type" value="Event" />
+		<property name="Keyword" value="Event" />
+		<property name="Crew Requirement" value="" />
+		<property name="Crew" value="" />
+		<property name="Defense" value="" />
+		<property name="Attack" value="" />
+		<property name="Initiative" value="" />
+		<property name="Salvage" value="" />
+		<property name="Text" value="put a deployed pilot from your opponent in your discard pile" />
+	</card>
+	<card id="31000a40-f835-4d50-8e76-d41266250021" name="Corruption">
+		<property name="Cost" value="5" />
+		<property name="Type" value="Event" />
+		<property name="Keyword" value="Event" />
+		<property name="Crew Requirement" value="" />
+		<property name="Crew" value="" />
+		<property name="Defense" value="" />
+		<property name="Attack" value="" />
+		<property name="Initiative" value="" />
+		<property name="Salvage" value="" />
+		<property name="Text" value="put a deployed pilot from your opponent in your discard pile" />
+	</card>
 </cards>
 
 </set>
