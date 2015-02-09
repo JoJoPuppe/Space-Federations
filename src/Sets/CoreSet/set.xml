@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<set name="SpaceCommad" id="5f45eedd-362a-4485-85a6-7e7b2d1c977b" gameId="0c563394-08d1-4adc-abac-51550c2dc23f" gameVersion="1.0.0" version="0.1">
+<set name="SpaceCommand" id="5f45eedd-362a-4485-85a6-7e7b2d1c977b" gameId="0c563394-08d1-4adc-abac-51550c2dc23f" gameVersion="1.0.0" version="0.1">
 
 <cards>
  	<card id="31000a40-f835-4d50-8e76-d41266250000" name="Fighter">
@@ -254,8 +254,8 @@
 		<property name="Salvage" value="" />
 		<property name="Text" value="put a deployed pilot from your opponent in your discard pile" />
 	</card>
-	<card id="31000a40-f835-4d50-8e76-d41266250021" name="Corruption">
-		<property name="Cost" value="5" />
+	<card id="31000a40-f835-4d50-8e76-d41266250021" name="Technician">
+		<property name="Cost" value="3" />
 		<property name="Type" value="Event" />
 		<property name="Keyword" value="Event" />
 		<property name="Crew Requirement" value="" />
@@ -264,7 +264,103 @@
 		<property name="Attack" value="" />
 		<property name="Initiative" value="" />
 		<property name="Salvage" value="" />
-		<property name="Text" value="put a deployed pilot from your opponent in your discard pile" />
+		<property name="Text" value="Repair 1 damage in your hand" />
+	</card>
+	<card id="31000a40-f835-4d50-8e76-d41266250022" name="1st Priority Order">
+		<property name="Cost" value="4" />
+		<property name="Type" value="Event" />
+		<property name="Keyword" value="Event" />
+		<property name="Crew Requirement" value="" />
+		<property name="Crew" value="" />
+		<property name="Defense" value="" />
+		<property name="Attack" value="" />
+		<property name="Initiative" value="" />
+		<property name="Salvage" value="" />
+		<property name="Text" value="Draw 3 cards. Is 1 of them a crew card keep it and put the other cards in any order under your deck" />
+	</card>
+	<card id="31000a40-f835-4d50-8e76-d41266250023" name="Fleet Payment">
+		<property name="Cost" value="2" />
+		<property name="Type" value="Event" />
+		<property name="Keyword" value="Event" />
+		<property name="Crew Requirement" value="" />
+		<property name="Crew" value="" />
+		<property name="Defense" value="" />
+		<property name="Attack" value="" />
+		<property name="Initiative" value="" />
+		<property name="Salvage" value="" />
+		<property name="Text" value="Draw 1 card and get 1 Credit" />
+	</card>
+	<card id="31000a40-f835-4d50-8e76-d41266250024" name="Shield">
+		<property name="Cost" value="3" />
+		<property name="Type" value="Equipment" />
+		<property name="Keyword" value="Defense" />
+		<property name="Crew Requirement" value="" />
+		<property name="Crew" value="" />
+		<property name="Defense" value="2" />
+		<property name="Attack" value="0" />
+		<property name="Initiative" value="0" />
+		<property name="Salvage" value="0" />
+		<property name="Text" value="at the beginning of your next turn put this card to the discardpile" />
+	</card>
+	<card id="31000a40-f835-4d50-8e76-d41266250025" name="Torpedo launcher">
+		<property name="Cost" value="5" />
+		<property name="Type" value="Equipment" />
+		<property name="Keyword" value="Attack" />
+		<property name="Crew Requirement" value="" />
+		<property name="Crew" value="" />
+		<property name="Defense" value="0" />
+		<property name="Attack" value="2" />
+		<property name="Initiative" value="0" />
+		<property name="Salvage" value="2" />
+		<property name="Text" value="equipable only Frigate and higher" />
+	</card>
+	<card id="31000a40-f835-4d50-8e76-d41266250026" name="Booster">
+		<property name="Cost" value="4" />
+		<property name="Type" value="Equipment" />
+		<property name="Keyword" value="Initiative" />
+		<property name="Crew Requirement" value="" />
+		<property name="Crew" value="" />
+		<property name="Defense" value="0" />
+		<property name="Attack" value="0" />
+		<property name="Initiative" value="2" />
+		<property name="Salvage" value="2" />
+		<property name="Text" value="Feel the speed" />
+	</card>
+	<card id="31000a40-f835-4d50-8e76-d41266250027" name="Multi Targeting System">
+		<property name="Cost" value="7" />
+		<property name="Type" value="Equipment" />
+		<property name="Keyword" value="Attack" />
+		<property name="Crew Requirement" value="" />
+		<property name="Crew" value="" />
+		<property name="Defense" value="0" />
+		<property name="Attack" value="1*" />
+		<property name="Initiative" value="0" />
+		<property name="Salvage" value="3" />
+		<property name="Text" value="Equipable for CORVETTE and higher. For every Enemy fighter get +1 ATK" />
+	</card>
+	<card id="31000a40-f835-4d50-8e76-d41266250028" name="Anti Capitalship Rockets">
+		<property name="Cost" value="6" />
+		<property name="Type" value="Equipment" />
+		<property name="Keyword" value="Attack" />
+		<property name="Crew Requirement" value="" />
+		<property name="Crew" value="" />
+		<property name="Defense" value="0" />
+		<property name="Attack" value="2*" />
+		<property name="Initiative" value="0" />
+		<property name="Salvage" value="2" />
+		<property name="Text" value="equipable only Fighter. For every Enemy CTS get +2 ATK" />
+	</card>
+	<card id="31000a40-f835-4d50-8e76-d41266250029" name="Damage">
+		<property name="Cost" value="" />
+		<property name="Type" value="Damage" />
+		<property name="Keyword" value="Damage" />
+		<property name="Crew Requirement" value="" />
+		<property name="Crew" value="" />
+		<property name="Defense" value="" />
+		<property name="Attack" value="" />
+		<property name="Initiative" value="" />
+		<property name="Salvage" value="" />
+		<property name="Text" value="can repaired with the technician" />
 	</card>
 </cards>
 
