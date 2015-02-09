@@ -12,6 +12,26 @@
 	<card qty="5" id="31000a40-f835-4d50-8e76-d41266250008">Defense Platform</card>
 	<card qty="2" id="31000a40-f835-4d50-8e76-d41266250009">Tradepost</card>
 	<card qty="2" id="31000a40-f835-4d50-8e76-d41266250010">Research Station</card>
+	<card qty="2" id="31000a40-f835-4d50-8e76-d41266250011">Pilot</card>
+	<card qty="2" id="31000a40-f835-4d50-8e76-d41266250012">Captain</card>
+	<card qty="2" id="31000a40-f835-4d50-8e76-d41266250013">Admiral</card>
+	<card qty="2" id="31000a40-f835-4d50-8e76-d41266250014">Wormhole</card>
+	<card qty="2" id="31000a40-f835-4d50-8e76-d41266250015">Hyperjump</card>
+	<card qty="2" id="31000a40-f835-4d50-8e76-d41266250016">Alliance Backup</card>
+	<card qty="2" id="31000a40-f835-4d50-8e76-d41266250017">Federal Police</card>
+	<card qty="2" id="31000a40-f835-4d50-8e76-d41266250018">Diplomat</card>
+	<card qty="2" id="31000a40-f835-4d50-8e76-d41266250019">Construction Bay Support</card>
+	<card qty="2" id="31000a40-f835-4d50-8e76-d41266250020">Corruption</card>
+	<card qty="2" id="31000a40-f835-4d50-8e76-d41266250021">Technician</card>
+	<card qty="2" id="31000a40-f835-4d50-8e76-d41266250022">1st Priority Order</card>
+	<card qty="2" id="31000a40-f835-4d50-8e76-d41266250023">Fleet Payment</card>
+	<card qty="2" id="31000a40-f835-4d50-8e76-d41266250024">Shield</card>
+	<card qty="2" id="31000a40-f835-4d50-8e76-d41266250025">Torpedo Launcher</card>
+	<card qty="2" id="31000a40-f835-4d50-8e76-d41266250026">Booster</card>
+	<card qty="2" id="31000a40-f835-4d50-8e76-d41266250027">Multi Targeting System</card>
+	<card qty="2" id="31000a40-f835-4d50-8e76-d41266250028">Anti Capitalship Rockets</card>
+	<card qty="2" id="31000a40-f835-4d50-8e76-d41266250029">Damage</card>
+
   </section>
   <section name="Main" shared="False" />
   <section name="Main2" shared="False" />
