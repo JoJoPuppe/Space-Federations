@@ -1,32 +1,155 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<templates>
-<blocks>
-<!-- Corp Identity Blocks-->
-<block type="text" id="corpIdent_name">
-<location x="63" y="23" />
-<text color="#000000" size="17" />
-<wordwrap height="17" width="230" shrinktofit="True"/>
-</block>
-<block type="text" id="corpIdent_subtitle">
-<location x="17" y="51" />
-<text color="#000000" size="12" />
-</block>
-<block type="text" id="corpIdent_keywords">
-<location x="105" y="330" />
-<text color="#000000" size="14" />
-<wordwrap height="14" width="204" />
-</block>
-<block type="text" id="corpIdent_rules">
-<location x="63" y="358" />
-<text color="#000000" size="12" />
-<wordwrap height="86" width="209" shrinktofit="True" />
-</block>
-<block type="text" id="corpIdent_deck">
-<location x="19" y="386"/>
-<text color="#000000" size="17" />
-</block>
-<block type="text" id="corpIdent_influence">
-<location x="19" y="411"/>
-<text color="#FFFFFF" size="17" />
-<border color="#000000" size="1" />
-</block>
+    <templates>
+        <blocks>
+<!-- Ship Blocks-->
+            <block type="text" id="ship_id">
+                <location x="63" y="23" />
+                <text color="#000000" size="17" />
+                <wordwrap height="17" width="230" shrinktofit="True"/>
+            </block>
+            <block type="text" id="ship_text">
+                <location x="63" y="358" />
+                <text color="#000000" size="12" />
+                <wordwrap height="86" width="209" shrinktofit="True" />
+            </block>
+            <block type="text" id="ship_cost">
+                <location x="19" y="386"/>
+                <text color="#000000" size="17" />
+            </block>
+            <block type="text" id="ship_crewreq">
+                <location x="19" y="411"/>
+                <text color="#FFFFFF" size="17" />
+                <border color="#000000" size="1" />
+            </block>
+            <block type="text" id="ship_att">
+                <location x="19" y="451"/>
+                <text color="#FFFFFF" size="17" />
+                <border color="#000000" size="1" />
+            </block>
+            <block type="text" id="ship_def">
+                <location x="19" y="511"/>
+                <text color="#FFFFFF" size="17" />
+                <border color="#000000" size="1" />
+            </block>
+            <block type="text" id="ship_int">
+                <location x="19" y="551"/>
+                <text color="#FFFFFF" size="17" />
+                <border color="#000000" size="1" />
+            </block>
+            <block type="text" id="ship_sell">
+                <location x="200" y="351"/>
+                <text color="#FFFFFF" size="17" />
+                <border color="#000000" size="1" />
+            </block>
+<!-- Event Blocks-->
+            <block type="text" id="event_id">
+                <location x="63" y="23" />
+                <text color="#000000" size="17" />
+                <wordwrap height="17" width="230" shrinktofit="True"/>
+            </block>
+            <block type="text" id="event_text">
+                <location x="63" y="358" />
+                <text color="#000000" size="12" />
+                <wordwrap height="86" width="209" shrinktofit="True" />
+            </block>
+            <block type="text" id="event_cost">
+                <location x="19" y="386"/>
+                <text color="#000000" size="17" />
+            </block>
+<!-- Equipment Blocks-->
+            <block type="text" id="equip_id">
+                <location x="63" y="23" />
+                <text color="#000000" size="17" />
+                <wordwrap height="17" width="230" shrinktofit="True"/>
+            </block>
+            <block type="text" id="equip_text">
+                <location x="63" y="358" />
+                <text color="#000000" size="12" />
+                <wordwrap height="86" width="209" shrinktofit="True" />
+            </block>
+            <block type="text" id="equip_cost">
+                <location x="19" y="386"/>
+                <text color="#000000" size="17" />
+            </block>
+            <block type="text" id="equip_sell">
+                <location x="200" y="351"/>
+                <text color="#FFFFFF" size="17" />
+                <border color="#000000" size="1" />
+            </block>
+ <!-- Structure Blocks-->
+            <block type="text" id="struc_id">
+                <location x="63" y="23" />
+                <text color="#000000" size="17" />
+                <wordwrap height="17" width="230" shrinktofit="True"/>
+            </block>
+            <block type="text" id="struc_text">
+                <location x="63" y="358" />
+                <text color="#000000" size="12" />
+                <wordwrap height="86" width="209" shrinktofit="True" />
+            </block>
+            <block type="text" id="struc_cost">
+                <location x="19" y="386"/>
+                <text color="#000000" size="17" />
+            </block>
+            <block type="text" id="struc_crewreq">
+                <location x="19" y="411"/>
+                <text color="#FFFFFF" size="17" />
+                <border color="#000000" size="1" />
+            </block>
+<!-- Crew Blocks-->
+            <block type="text" id="crew_id">
+                <location x="63" y="23" />
+                <text color="#000000" size="17" />
+                <wordwrap height="17" width="230" shrinktofit="True"/>
+            </block>
+            <block type="text" id="crew_text">
+                <location x="63" y="358" />
+                <text color="#000000" size="12" />
+                <wordwrap height="86" width="209" shrinktofit="True" />
+            </block>
+            <block type="text" id="crew_cost">
+                <location x="19" y="386"/>
+                <text color="#000000" size="17" />
+            </block>
+            <block type="text" id="crew_sell">
+                <location x="200" y="351"/>
+                <text color="#FFFFFF" size="17" />
+                <border color="#000000" size="1" />
+            </block>
+            <block type="text" id="crew_crewgen">
+                <location x="19" y="451"/>
+                <text color="#FFFFFF" size="17" />
+                <border color="#000000" size="1" />
+            </block>
+!-- TEMPLATES -->
+    <template src="Proxy/White_Card_Template.png" default="True">
+    <matches>
+        <match name="Name" value="Whatever" />
+    </matches>
+    <textblocks>
+        <link block="default_name" separator=" ">
+            <property name="Name" />
+        </link>
+    </textblocks>
+    </template>
+<!-- Operation Templates -->
+    <template src="Proxy/Operations/Operation_Weyland.jpg">
+    <matches>
+        <match name="Faction" value="The Weyland Consortium" />
+        <match name="Type" value="Operation" />
+    </matches>
+    <textblocks>
+        <link block="operation_name" separator=" ">
+            <property name="Name" />
+        </link>
+        <link block="operation_cost" separator=" ">
+            <property name="Cost" />
+        </link>
+        <link block="operation_keywords" separator=" ">
+            <property name="Keywords" />
+        </link>
+        <link block="operation_rules" separator=" ">
+            <property name="Rules" />
+        </link>
+    </textblocks>
+    </template>
