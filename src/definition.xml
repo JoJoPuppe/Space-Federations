@@ -93,5 +93,6 @@
   <sharedDeck>
       <section name="Market" group="Deck" />
       <section name="Market" group="Discard" />
+      <section name="Dock" group="Dock" />
   </sharedDeck>
 </game>
