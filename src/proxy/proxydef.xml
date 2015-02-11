@@ -76,6 +76,21 @@
                 <text color="#FFFFFF" size="17" />
                 <border color="#000000" size="1" />
             </block>
+            <block type="text" id="equip_att">
+                <location x="19" y="451"/>
+                <text color="#FFFFFF" size="17" />
+                <border color="#000000" size="1" />
+            </block>
+            <block type="text" id="equip_def">
+                <location x="19" y="511"/>
+                <text color="#FFFFFF" size="17" />
+                <border color="#000000" size="1" />
+            </block>
+            <block type="text" id="equip_int">
+                <location x="19" y="551"/>
+                <text color="#FFFFFF" size="17" />
+                <border color="#000000" size="1" />
+            </block>
  <!-- Structure Blocks-->
             <block type="text" id="struc_id">
                 <location x="63" y="23" />
@@ -121,35 +136,144 @@
                 <text color="#FFFFFF" size="17" />
                 <border color="#000000" size="1" />
             </block>
-!-- TEMPLATES -->
-    <template src="Proxy/White_Card_Template.png" default="True">
+<!-- SHIP TEMPLATES -->
+    <template src="Proxy/proxy_ship.jpg">
     <matches>
-        <match name="Name" value="Whatever" />
+        <match name="Type" value="Ship" />
     </matches>
     <textblocks>
-        <link block="default_name" separator=" ">
-            <property name="Name" />
+        <link block="ship_text" separator=" ">
+            <property name="Text" />
+        </link>
+        <link block="ship_id" separator=" ">
+            <property name="Keyword" />
+        </link>
+        <link block="ship_cost" separator=" ">
+            <property name="Cost" />
+        </link>
+        <link block="ship_att" separator=" ">
+            <property name="Attack" />
+        </link>
+        <link block="ship_def" separator=" ">
+            <property name="Defense" />
+        </link>
+        <link block="ship_int" separator=" ">
+            <property name="Initiative" />
+        </link>
+        <link block="ship_crewreq" separator=" ">
+            <property name="Crew Requirement" />
+        </link>
+        <link block="ship_sell" separator=" ">
+            <property name="Salvage" />
         </link>
     </textblocks>
     </template>
-<!-- Operation Templates -->
-    <template src="Proxy/Operations/Operation_Weyland.jpg">
+<!--Event TEMPLATES -->
+    <template src="Proxy/proxy_event.jpg">
     <matches>
-        <match name="Faction" value="The Weyland Consortium" />
-        <match name="Type" value="Operation" />
+        <match name="Type" value="Event" />
     </matches>
     <textblocks>
-        <link block="operation_name" separator=" ">
-            <property name="Name" />
+        <link block="event_text" separator=" ">
+            <property name="Text" />
         </link>
-        <link block="operation_cost" separator=" ">
+        <link block="event_id" separator=" ">
+            <property name="Keyword" />
+        </link>
+        <link block="event_cost" separator=" ">
             <property name="Cost" />
         </link>
-        <link block="operation_keywords" separator=" ">
-            <property name="Keywords" />
+    </textblocks>
+    </template>
+<!-- Equip TEMPLATES -->
+    <template src="Proxy/proxy_equipment.jpg">
+    <matches>
+        <match name="Type" value="Equipment" />
+    </matches>
+    <textblocks>
+        <link block="equip_text" separator=" ">
+            <property name="Text" />
         </link>
-        <link block="operation_rules" separator=" ">
-            <property name="Rules" />
+        <link block="equip_id" separator=" ">
+            <property name="Keyword" />
+        </link>
+        <link block="equip_cost" separator=" ">
+            <property name="Cost" />
+        </link>
+        <link block="equip_sell" separator=" ">
+            <property name="Salvage" />
+        </link>
+        <link block="equip_att" separator=" ">
+            <property name="Attack" />
+        </link>
+        <link block="equip_def" separator=" ">
+            <property name="Defense" />
+        </link>
+        <link block="equip_int" separator=" ">
+            <property name="Initiative" />
+        </link>
+    </textblocks>
+    </template>
+<!-- Structure TEMPLATES -->
+    <template src="Proxy/proxy_structure.jpg">
+    <matches>
+        <match name="Type" value="Structure" />
+    </matches>
+    <textblocks>
+        <link block="struc_text" separator=" ">
+            <property name="Text" />
+        </link>
+        <link block="struc_id" separator=" ">
+            <property name="Keyword" />
+        </link>
+        <link block="struc_cost" separator=" ">
+            <property name="Cost" />
+        </link>
+        <link block="struc_sell" separator=" ">
+            <property name="Salvage" />
+        </link>
+        <link block="struc_crewreq" separator=" ">
+            <property name="Crew Requirement" />
+        </link>
+    </textblocks>
+    </template>
+<!-- Crew TEMPLATES -->
+    <template src="Proxy/proxy_crew.jpg">
+    <matches>
+        <match name="Type" value="Crew" />
+    </matches>
+    <textblocks>
+        <link block="crew_text" separator=" ">
+            <property name="Text" />
+        </link>
+        <link block="crew_id" separator=" ">
+            <property name="Keyword" />
+        </link>
+        <link block="crew_cost" separator=" ">
+            <property name="Cost" />
+        </link>
+        <link block="crew_sell" separator=" ">
+            <property name="Salvage" />
+        </link>
+        <link block="crew_crewgen" separator=" ">
+            <property name="Crew" />
+        </link>
+    </textblocks>
+    </template>
+<!-- Damage TEMPLATES -->
+    <template src="Proxy/proxy_damage.jpg">
+    <matches>
+        <match name="Type" value="Damage" />
+    </matches>
+    <textblocks>
+        <link block="damage_text" separator=" ">
+            <property name="Text" />
+        </link>
+        <link block="damage_id" separator=" ">
+            <property name="Keyword" />
+        </link>
+        <link block="damage_damage" separator=" ">
+            <property name="Cost" />
         </link>
     </textblocks>
     </template>
