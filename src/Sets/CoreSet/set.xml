@@ -351,7 +351,7 @@
 		<property name="Text" value="equipable only Fighter. For every Enemy CTS get +2 ATK" />
 	</card>
 	<card id="31000a40-f835-4d50-8e76-d41266250029" name="Damage">
-		<property name="Cost" value="" />
+		<property name="Cost" value="1" />
 		<property name="Type" value="Damage" />
 		<property name="Keyword" value="Damage" />
 		<property name="Crew Requirement" value="" />
