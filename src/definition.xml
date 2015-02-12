@@ -13,7 +13,7 @@
     <card back="cards/back.png" front="cards/front.png" width="63" height="88" cornerRadius="10">
 	<property name="Cost" type="String" hidden="False" ignoreText="False"/>
 	<property name="Type" type="String" hidden="False" ignoreText="False" textKind="Enum" />
-	<property name="Keywords" type="String" hidden="False" ignoreText="False" />
+	<property name="Keyword" type="String" hidden="False" ignoreText="False" />
       	<property name="Crew Requirement" type="String" hidden="False" ignoreText="False" />
       	<property name="Crew" type="String" hidden="False" />
       	<property name="Defense" type="String" hidden="False" />
