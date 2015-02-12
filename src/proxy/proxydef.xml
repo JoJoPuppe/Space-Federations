@@ -136,6 +136,21 @@
                 <text color="#FFFFFF" size="17" />
                 <border color="#000000" size="1" />
             </block>
+  <!-- Damage Blocks-->
+            <block type="text" id="damage_id">
+                <location x="63" y="23" />
+                <text color="#000000" size="17" />
+                <wordwrap height="17" width="230" shrinktofit="True"/>
+            </block>
+            <block type="text" id="damage_text">
+                <location x="63" y="358" />
+                <text color="#000000" size="12" />
+                <wordwrap height="86" width="209" shrinktofit="True" />
+            </block>
+            <block type="text" id="damage_cost">
+                <location x="19" y="386"/>
+                <text color="#000000" size="17" />
+            </block>
         </blocks>
 <!-- SHIP TEMPLATES -->
     <template src="Proxy/proxy_ship.jpg">
@@ -273,7 +288,7 @@
         <link block="damage_id" separator=" ">
             <property name="Keyword" />
         </link>
-        <link block="damage_damage" separator=" ">
+        <link block="damage_cost" separator=" ">
             <property name="Cost" />
         </link>
     </textblocks>
