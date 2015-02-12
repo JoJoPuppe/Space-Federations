@@ -3,42 +3,42 @@
         <blocks>
 <!-- Ship Blocks-->
             <block type="text" id="ship_id">
-                <location x="63" y="23" />
-                <text color="#000000" size="17" />
+                <location x="80" y="33" />
+                <text color="#000000" size="20" />
                 <wordwrap height="17" width="230" shrinktofit="True"/>
             </block>
             <block type="text" id="ship_text">
-                <location x="63" y="358" />
-                <text color="#000000" size="12" />
+                <location x="70" y="250" />
+                <text color="#000000" size="14" />
                 <wordwrap height="86" width="209" shrinktofit="True" />
             </block>
             <block type="text" id="ship_cost">
-                <location x="19" y="386"/>
-                <text color="#000000" size="17" />
+                <location x="15" y="20"/>
+                <text color="#000000" size="25" />
             </block>
             <block type="text" id="ship_crewreq">
-                <location x="19" y="411"/>
-                <text color="#FFFFFF" size="17" />
+                <location x="100" y="20"/>
+                <text color="#FFFFFF" size="25" />
                 <border color="#000000" size="1" />
             </block>
             <block type="text" id="ship_att">
-                <location x="19" y="451"/>
-                <text color="#FFFFFF" size="17" />
+                <location x="22" y="200"/>
+                <text color="#FFFFFF" size="25" />
                 <border color="#000000" size="1" />
             </block>
             <block type="text" id="ship_def">
-                <location x="19" y="511"/>
-                <text color="#FFFFFF" size="17" />
+                <location x="22" y="220"/>
+                <text color="#FFFFFF" size="25" />
                 <border color="#000000" size="1" />
             </block>
             <block type="text" id="ship_int">
-                <location x="19" y="551"/>
-                <text color="#FFFFFF" size="17" />
+                <location x="22" y="240"/>
+                <text color="#FFFFFF" size="25" />
                 <border color="#000000" size="1" />
             </block>
             <block type="text" id="ship_sell">
-                <location x="200" y="351"/>
-                <text color="#FFFFFF" size="17" />
+                <location x="200" y="120"/>
+                <text color="#FFFFFF" size="25" />
                 <border color="#000000" size="1" />
             </block>
 <!-- Event Blocks-->
