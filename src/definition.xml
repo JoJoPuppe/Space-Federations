@@ -81,18 +81,16 @@
        <groupaction menu="Send Top X Cards to the Discard Pile" execute="mill" />
        <groupaction menu="Shuffle" shortcut="ctrl+S" execute="shuffle" />
     </group>
-    <group name="Discard" shortcut="del" visibility="all" width="63" height="88" icon="groups/discardpile.png">
+    <group name="Discard" visibility="all" width="63" height="88" icon="groups/discardpile.png">
        <groupaction menu="Shuffle" shortcut="ctrl+S" execute="shuffle" />
        <groupaction menu="Shuffle Into Deck" execute="shuffleIntoDeck" />
     </group>
-    <group name="Graveyard" shortcut="del" visibility="all" width="63" height="88" icon="groups/discardpile.png">
+    <group name="Graveyard" visibility="all" width="63" height="88" icon="groups/discardpile.png">
        <groupaction menu="Shuffle" shortcut="ctrl+S" execute="shuffle" />
        <groupaction menu="Shuffle Into Deck" execute="shuffleIntoDeck" />
     </group>
   </shared>
   <sharedDeck>
-      <section name="Market" group="Deck" />
-      <section name="Market" group="Discard" />
-      <section name="Dock" group="Dock" />
+      <section name="Main" group="Deck" />
   </sharedDeck>
 </game>
