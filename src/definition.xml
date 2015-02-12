@@ -92,5 +92,7 @@
   </shared>
   <sharedDeck>
       <section name="Main" group="Deck" />
+      <section name="Dock" group="Dock" />
+      <section name="Damage" group="Damage" />
   </sharedDeck>
 </game>
