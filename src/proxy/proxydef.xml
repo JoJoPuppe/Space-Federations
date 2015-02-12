@@ -136,6 +136,7 @@
                 <text color="#FFFFFF" size="17" />
                 <border color="#000000" size="1" />
             </block>
+        </blocks>
 <!-- SHIP TEMPLATES -->
     <template src="Proxy/proxy_ship.jpg">
     <matches>
@@ -277,3 +278,4 @@
         </link>
     </textblocks>
     </template>
+</templates>
