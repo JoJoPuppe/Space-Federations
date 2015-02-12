@@ -22,7 +22,7 @@
       	<property name="Salvage" type="String" hidden="False" ignoreText="True" />
       	<property name="Text" type="String" hidden="False" ignoreText="False" />
     </card>
-    <table name="Table" visibility="undefined" ordered="False" width="800" height="650" background="background/felt.png" backgroundStyle="uniformToFill">
+    <table name="Table" visibility="undefined" ordered="False" width="800" height="650" background="table\table.jpg" backgroundStyle="uniformToFill">
         <groupaction menu="Draw" shortcut="ctrl+D" default="True" execute="draw" />
         <groupaction menu="Draw X Cards" shortcut="ctrl+shift+D" execute="drawMany" />
         <groupaction menu="Send Top X Cards to the Discard Pile" execute="mill" />
