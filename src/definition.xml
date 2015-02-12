@@ -92,5 +92,7 @@
   </shared>
   <sharedDeck>
       <section name="Market" group="Deck" />
+      <section name="Dock" group="Dock" />
+      <section name="Damage Pool" group="Damage" />
   </sharedDeck>
 </game>
