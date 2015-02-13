@@ -163,8 +163,8 @@ def shuffle(group, x = 0, y = 0):
      whisper("You are not the active player.")
 def shuffleIntoDeck(group, x = 0, y = 0):
     mute()
-    for c in group: c.moveTo(shared.Deck)
-    shared.Deck.shuffle()
+    for c in group: c.moveTo(me.piles['Deck'])
+    me.piles['Deck'].shuffle()
     notify("{} shuffled the discard pile into the deck.".format(me))
 
 StandardMarker = ("Marker", "40bba10f-82e5-4f7e-986b-e9c850524f88")
