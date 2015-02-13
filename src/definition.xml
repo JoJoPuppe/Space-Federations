@@ -50,9 +50,23 @@
     <hand name="Hand" shortcut="ctrl+H" visibility="me" ordered="False" width="63" height="88" icon="groups/hand.png">
        <cardaction menu="Discard Card" shortcut="del" execute="discard" />
     </hand>
+    <group name="Discard" visibility="me" width="63" height="88" icon="groups/discardpile.png">
+       	<groupaction menu="Shuffle" shortcut="ctrl+S" execute="shuffle" />
+       	<groupaction menu="Shuffle Into Deck" execute="shuffleIntoDeck" />
+    </group>
+        <group name="Deck" visibility="none" width="63" height="88" icon="groups/discardpile.png">
+       	<groupaction menu="Shuffle" shortcut="ctrl+S" execute="shuffle" />
+       	<groupaction menu="Deal X Cards" default="True" execute="dealMany" />
+        <groupaction menu="Deal X Cards To Table" execute="dealManyToTable" />
+        <groupaction menu="Deal X Cards To Table(face down)" execute="dealManyToTableDown" />
+       	<groupaction menu="Draw" shortcut="ctrl+D" execute="draw" />
+       	<groupaction menu="Draw X Cards" shortcut="ctrl+shift+D" execute="drawMany" />
+       	<groupaction menu="Draw X Cards Face Down" execute="drawManyDown" />
+       	<groupaction menu="Send Top X Cards to the Discard Pile" execute="mill" />
+    </group>
   </player>
   <shared>
-    <group name="Deck" shortcut="ctrl+E" visibility="none" width="63" height="88" icon="groups/deck.png">
+    <group name="Market" shortcut="ctrl+E" visibility="none" width="63" height="88" icon="groups/deck.png">
         <groupaction menu="Deal X Cards" default="True" execute="dealMany" />
         <groupaction menu="Deal X Cards To Table" execute="dealManyToTable" />
         <groupaction menu="Deal X Cards To Table(face down)" execute="dealManyToTableDown" />
@@ -82,18 +96,14 @@
       	<groupaction menu="Send Top X Cards to the Discard Pile" execute="mill" />
 	<groupaction menu="Shuffle" shortcut="ctrl+S" execute="shuffle" />
     </group>
-    	<group name="Discard" visibility="all" width="63" height="88" icon="groups/discardpile.png">
-       	<groupaction menu="Shuffle" shortcut="ctrl+S" execute="shuffle" />
-       	<groupaction menu="Shuffle Into Deck" execute="shuffleIntoDeck" />
-    </group>
-    	<group name="Graveyard" visibility="all" width="63" height="88" icon="groups/discardpile.png">
+      	<group name="Graveyard" visibility="all" width="63" height="88" icon="groups/discardpile.png">
        	<groupaction menu="Shuffle" shortcut="ctrl+S" execute="shuffle" />
        	<groupaction menu="Shuffle Into Deck" execute="shuffleIntoDeck" />
     </group>
   </shared>
   <sharedDeck>
-      <section name="Market" group="Deck" />
+      <section name="Market" group="Market" />
       <section name="Dock" group="Dock" />
-      <section name="Damage Pool" group="Damage" />
+      <section name="Damage" group="Damage" />
   </sharedDeck>
 </game>
