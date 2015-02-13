@@ -162,7 +162,7 @@
             <property name="Text" />
         </link>
         <link block="ship_id" separator=" ">
-            <property name="Keyword" />
+            <property name="Name" />
         </link>
         <link block="ship_cost" separator=" ">
             <property name="Cost" />
@@ -194,7 +194,7 @@
             <property name="Text" />
         </link>
         <link block="event_id" separator=" ">
-            <property name="Keyword" />
+            <property name="Name" />
         </link>
         <link block="event_cost" separator=" ">
             <property name="Cost" />
@@ -211,7 +211,7 @@
             <property name="Text" />
         </link>
         <link block="equip_id" separator=" ">
-            <property name="Keyword" />
+            <property name="Name" />
         </link>
         <link block="equip_cost" separator=" ">
             <property name="Cost" />
@@ -240,7 +240,7 @@
             <property name="Text" />
         </link>
         <link block="struc_id" separator=" ">
-            <property name="Keyword" />
+            <property name="Name" />
         </link>
         <link block="struc_cost" separator=" ">
             <property name="Cost" />
@@ -260,7 +260,7 @@
             <property name="Text" />
         </link>
         <link block="crew_id" separator=" ">
-            <property name="Keyword" />
+            <property name="Name" />
         </link>
         <link block="crew_cost" separator=" ">
             <property name="Cost" />
@@ -283,7 +283,7 @@
             <property name="Text" />
         </link>
         <link block="damage_id" separator=" ">
-            <property name="Keyword" />
+            <property name="Name" />
         </link>
         <link block="damage_cost" separator=" ">
             <property name="Cost" />
