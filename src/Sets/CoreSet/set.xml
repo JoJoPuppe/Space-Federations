@@ -5,6 +5,7 @@
  	<card id="31000a40-f835-4d50-8e76-d41266250000" name="Fighter">
 		<property name="Cost" value="3" />
 		<property name="Type" value="Ship" />
+		<property name="Name" value="Hornet" />
 		<property name="Keyword" value="Fighter" />
 		<property name="Crew Requirement" value="2" />
 		<property name="Crew" value="" />
@@ -17,6 +18,7 @@
 	<card id="31000a40-f835-4d50-8e76-d41266250001" name="Corvette">
 		<property name="Cost" value="4" />
 		<property name="Type" value="Ship" />
+		<property name="Name" value="Skyraiser" />
 		<property name="Keyword" value="Corvette" />
 		<property name="Crew Requirement" value="3" />
 		<property name="Crew" value="" />
@@ -29,6 +31,7 @@
 	<card id="31000a40-f835-4d50-8e76-d41266250002" name="Frigate">
 		<property name="Cost" value="7" />
 		<property name="Type" value="Ship" />
+		<property name="Name" value="Battlehawk" />
 		<property name="Keyword" value="Frigate" />
 		<property name="Crew Requirement" value="6" />
 		<property name="Crew" value="" />
@@ -41,6 +44,7 @@
 	<card id="31000a40-f835-4d50-8e76-d41266250003" name="Destroyer">
 		<property name="Cost" value="10" />
 		<property name="Type" value="Ship" />
+		<property name="Name" value="Lumberjack" />
 		<property name="Keyword" value="Destroyer" />
 		<property name="Crew Requirement" value="10" />
 		<property name="Crew" value="" />
@@ -53,7 +57,8 @@
 	<card id="31000a40-f835-4d50-8e76-d41266250004" name="Resource Ship">
 		<property name="Cost" value="2" />
 		<property name="Type" value="Ship" />
-		<property name="Keyword" value="Destroyer" />
+		<property name="Name" value="Basic Collector" />
+		<property name="Keyword" value="Resource Ship" />
 		<property name="Crew Requirement" value="2" />
 		<property name="Crew" value="" />
 		<property name="Defense" value="2" />
@@ -65,6 +70,7 @@
 	<card id="31000a40-f835-4d50-8e76-d41266250005" name="Mining Asteroid">
 		<property name="Cost" value="5" />
 		<property name="Type" value="Structure" />
+		<property name="Name" value="Minig Base 201" />
 		<property name="Keyword" value="Resource Generator" />
 		<property name="Crew Requirement" value="1" />
 		<property name="Crew" value="" />
@@ -77,6 +83,7 @@
 	<card id="31000a40-f835-4d50-8e76-d41266250006" name="Command Station">
 		<property name="Cost" value="8" />
 		<property name="Type" value="Structure" />
+		<property name="Name" value="Command Station Sigma" />
 		<property name="Keyword" value="" />
 		<property name="Crew Requirement" value="1" />
 		<property name="Crew" value="" />
@@ -89,6 +96,7 @@
 	<card id="31000a40-f835-4d50-8e76-d41266250007" name="Acadamy">
 		<property name="Cost" value="5" />
 		<property name="Type" value="Structure" />
+		<property name="Name" value="Federal Recruiting Acadamy South" />
 		<property name="Keyword" value="Crew Generator" />
 		<property name="Crew Requirement" value="0" />
 		<property name="Crew" value="" />
@@ -101,6 +109,7 @@
 	<card id="31000a40-f835-4d50-8e76-d41266250008" name="Defense Platform">
 		<property name="Cost" value="3" />
 		<property name="Type" value="Structure" />
+		<property name="Name" value="Laser Defense Platform" />
 		<property name="Keyword" value="Defense" />
 		<property name="Crew Requirement" value="1" />
 		<property name="Crew" value="" />
@@ -113,6 +122,7 @@
 	<card id="31000a40-f835-4d50-8e76-d41266250009" name="Tradepost">
 		<property name="Cost" value="6" />
 		<property name="Type" value="Structure" />
+		<property name="Name" value="Tradepost Mars" />
 		<property name="Keyword" value="Trade" />
 		<property name="Crew Requirement" value="1" />
 		<property name="Crew" value="" />
@@ -125,6 +135,7 @@
 	<card id="31000a40-f835-4d50-8e76-d41266250010" name="Research Station">
 		<property name="Cost" value="6" />
 		<property name="Type" value="Structure" />
+		<property name="Name" value="FERES - Federal Research Station" />
 		<property name="Keyword" value="Trade" />
 		<property name="Crew Requirement" value="1" />
 		<property name="Crew" value="" />
@@ -137,6 +148,7 @@
 	<card id="31000a40-f835-4d50-8e76-d41266250011" name="Pilot">
 		<property name="Cost" value="2" />
 		<property name="Type" value="Crew" />
+		<property name="Name" value="Delta Squad Pilot" />
 		<property name="Keyword" value="Pilot" />
 		<property name="Crew Requirement" value="" />
 		<property name="Crew" value="1" />
@@ -149,7 +161,8 @@
 	<card id="31000a40-f835-4d50-8e76-d41266250012" name="Captain">
 		<property name="Cost" value="4" />
 		<property name="Type" value="Crew" />
-		<property name="Keyword" value="Officer" />
+		<property name="Name" value="Bridge Officer" />
+		<property name="Keyword" value="Captain" />
 		<property name="Crew Requirement" value="" />
 		<property name="Crew" value="3" />
 		<property name="Defense" value="" />
@@ -161,7 +174,8 @@
 	<card id="31000a40-f835-4d50-8e76-d41266250013" name="Admiral">
 		<property name="Cost" value="7" />
 		<property name="Type" value="Crew" />
-		<property name="Keyword" value="Officer" />
+		<property name="Name" value="Fleet Commander" />
+		<property name="Keyword" value="Admiral" />
 		<property name="Crew Requirement" value="" />
 		<property name="Crew" value="5" />
 		<property name="Defense" value="" />
@@ -173,6 +187,7 @@
 	<card id="31000a40-f835-4d50-8e76-d41266250014" name="Wormhole">
 		<property name="Cost" value="3" />
 		<property name="Type" value="Event" />
+		<property name="Name" value="Wormhole" />
 		<property name="Keyword" value="Event" />
 		<property name="Crew Requirement" value="" />
 		<property name="Crew" value="" />
@@ -185,6 +200,7 @@
 	<card id="31000a40-f835-4d50-8e76-d41266250015" name="Hyperjump">
 		<property name="Cost" value="3" />
 		<property name="Type" value="Event" />
+		<property name="Name" value="Hyperjump" />
 		<property name="Keyword" value="Event" />
 		<property name="Crew Requirement" value="" />
 		<property name="Crew" value="" />
@@ -197,6 +213,7 @@
 	<card id="31000a40-f835-4d50-8e76-d41266250016" name="Alliance Backup">
 		<property name="Cost" value="3" />
 		<property name="Type" value="Event" />
+		<property name="Name" value="Alliance Backup" />
 		<property name="Keyword" value="Event" />
 		<property name="Crew Requirement" value="" />
 		<property name="Crew" value="" />
@@ -209,6 +226,7 @@
 	<card id="31000a40-f835-4d50-8e76-d41266250017" name="Federal Police">
 		<property name="Cost" value="3" />
 		<property name="Type" value="Event" />
+		<property name="Name" value="Federal Police" />
 		<property name="Keyword" value="Event" />
 		<property name="Crew Requirement" value="" />
 		<property name="Crew" value="" />
@@ -221,6 +239,7 @@
 	<card id="31000a40-f835-4d50-8e76-d41266250018" name="Diplomat">
 		<property name="Cost" value="3" />
 		<property name="Type" value="Event" />
+		<property name="Name" value="Diplomat" />
 		<property name="Keyword" value="Event" />
 		<property name="Crew Requirement" value="" />
 		<property name="Crew" value="" />
@@ -233,6 +252,7 @@
 	<card id="31000a40-f835-4d50-8e76-d41266250019" name="Construction Bay Support">
 		<property name="Cost" value="6" />
 		<property name="Type" value="Event" />
+		<property name="Name" value="Construction Bay Support" />
 		<property name="Keyword" value="Event" />
 		<property name="Crew Requirement" value="" />
 		<property name="Crew" value="" />
@@ -245,6 +265,7 @@
 	<card id="31000a40-f835-4d50-8e76-d41266250020" name="Corruption">
 		<property name="Cost" value="5" />
 		<property name="Type" value="Event" />
+		<property name="Name" value="Corruption" />
 		<property name="Keyword" value="Event" />
 		<property name="Crew Requirement" value="" />
 		<property name="Crew" value="" />
@@ -257,6 +278,7 @@
 	<card id="31000a40-f835-4d50-8e76-d41266250021" name="Technician">
 		<property name="Cost" value="3" />
 		<property name="Type" value="Event" />
+		<property name="Name" value="Technician" />
 		<property name="Keyword" value="Event" />
 		<property name="Crew Requirement" value="" />
 		<property name="Crew" value="" />
@@ -269,6 +291,7 @@
 	<card id="31000a40-f835-4d50-8e76-d41266250022" name="1st Priority Order">
 		<property name="Cost" value="4" />
 		<property name="Type" value="Event" />
+		<property name="Name" value="1st Priority Order" />
 		<property name="Keyword" value="Event" />
 		<property name="Crew Requirement" value="" />
 		<property name="Crew" value="" />
@@ -281,6 +304,7 @@
 	<card id="31000a40-f835-4d50-8e76-d41266250023" name="Fleet Payment">
 		<property name="Cost" value="2" />
 		<property name="Type" value="Event" />
+		<property name="Name" value="Fleet Payment" />
 		<property name="Keyword" value="Event" />
 		<property name="Crew Requirement" value="" />
 		<property name="Crew" value="" />
@@ -293,6 +317,7 @@
 	<card id="31000a40-f835-4d50-8e76-d41266250024" name="Shield">
 		<property name="Cost" value="3" />
 		<property name="Type" value="Equipment" />
+		<property name="Name" value="Energy Shield" />
 		<property name="Keyword" value="Defense" />
 		<property name="Crew Requirement" value="" />
 		<property name="Crew" value="" />
@@ -305,6 +330,7 @@
 	<card id="31000a40-f835-4d50-8e76-d41266250025" name="Torpedo launcher">
 		<property name="Cost" value="5" />
 		<property name="Type" value="Equipment" />
+		<property name="Name" value="Torpedo Launcher" />
 		<property name="Keyword" value="Attack" />
 		<property name="Crew Requirement" value="" />
 		<property name="Crew" value="" />
@@ -317,6 +343,7 @@
 	<card id="31000a40-f835-4d50-8e76-d41266250026" name="Booster">
 		<property name="Cost" value="4" />
 		<property name="Type" value="Equipment" />
+		<property name="Name" value="Booster" />
 		<property name="Keyword" value="Initiative" />
 		<property name="Crew Requirement" value="" />
 		<property name="Crew" value="" />
@@ -329,6 +356,7 @@
 	<card id="31000a40-f835-4d50-8e76-d41266250027" name="Multi Targeting System">
 		<property name="Cost" value="7" />
 		<property name="Type" value="Equipment" />
+		<property name="Name" value="MTS - Multi-Targeting-System" />
 		<property name="Keyword" value="Attack" />
 		<property name="Crew Requirement" value="" />
 		<property name="Crew" value="" />
@@ -341,6 +369,7 @@
 	<card id="31000a40-f835-4d50-8e76-d41266250028" name="Anti Capitalship Rockets">
 		<property name="Cost" value="6" />
 		<property name="Type" value="Equipment" />
+		<property name="Name" value="ACR - Anti-Capitalship-Rockets" />
 		<property name="Keyword" value="Attack" />
 		<property name="Crew Requirement" value="" />
 		<property name="Crew" value="" />
@@ -353,6 +382,7 @@
 	<card id="31000a40-f835-4d50-8e76-d41266250029" name="Damage">
 		<property name="Cost" value="1" />
 		<property name="Type" value="Damage" />
+		<property name="Name" value="Damage" />
 		<property name="Keyword" value="Damage" />
 		<property name="Crew Requirement" value="" />
 		<property name="Crew" value="" />
