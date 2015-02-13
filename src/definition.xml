@@ -97,8 +97,6 @@
 	<groupaction menu="Shuffle" shortcut="ctrl+S" execute="shuffle" />
     </group>
       	<group name="Graveyard" visibility="all" width="63" height="88" icon="groups/discardpile.png">
-       	<groupaction menu="Shuffle" shortcut="ctrl+S" execute="shuffle" />
-       	<groupaction menu="Shuffle Into Deck" execute="shuffleIntoDeck" />
     </group>
   </shared>
   <sharedDeck>
