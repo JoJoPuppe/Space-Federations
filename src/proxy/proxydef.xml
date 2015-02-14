@@ -153,7 +153,7 @@
             </block>
         </blocks>
 <!-- SHIP TEMPLATES -->
-    <template src="Proxy/proxy_ship.jpg">
+    <template src="Proxy/proxy_ship.png">
     <matches>
         <match name="Type" value="Ship" />
     </matches>

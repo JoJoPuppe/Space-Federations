@@ -1,8 +1,8 @@
-def start():
-	cards = table.create('31000a40-f835-4d50-8e76-d41266250004', 6, 100, quantity = 6, persist = True)
-	for card in cards:
-    	notify("{} created {}.".format(me, card))
-    	cards.moveTo(me.hand)
+def start(cards):
+    cards = table.create('31000a40-f835-4d50-8e76-d41266250004', 6, 100, quantity = 2, persist = True)
+    for card in cards:
+        notify("{} created {}.".format(me, card))
+        cards.moveTo(me.hand)
 
 def sitstand(group, x = 0, y = 0):
     isstanding = me.getGlobalVariable("standing")
