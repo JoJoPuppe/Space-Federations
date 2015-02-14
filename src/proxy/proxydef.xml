@@ -185,7 +185,7 @@
     </textblocks>
     </template>
 <!--Event TEMPLATES -->
-    <template src="Proxy/proxy_event.jpg">
+    <template src="Proxy/proxy_event.png">
     <matches>
         <match name="Type" value="Event" />
     </matches>
@@ -202,7 +202,7 @@
     </textblocks>
     </template>
 <!-- Equip TEMPLATES -->
-    <template src="Proxy/proxy_equipment.jpg">
+    <template src="Proxy/proxy_equipment.png">
     <matches>
         <match name="Type" value="Equipment" />
     </matches>
@@ -231,7 +231,7 @@
     </textblocks>
     </template>
 <!-- Structure TEMPLATES -->
-    <template src="Proxy/proxy_structure.jpg">
+    <template src="Proxy/proxy_structure.png">
     <matches>
         <match name="Type" value="Structure" />
     </matches>
@@ -251,7 +251,7 @@
     </textblocks>
     </template>
 <!-- Crew TEMPLATES -->
-    <template src="Proxy/proxy_crew.jpg">
+    <template src="Proxy/proxy_crew.png">
     <matches>
         <match name="Type" value="Crew" />
     </matches>
@@ -274,7 +274,7 @@
     </textblocks>
     </template>
 <!-- Damage TEMPLATES -->
-    <template src="Proxy/proxy_damage.jpg">
+    <template src="Proxy/proxy_damage.png">
     <matches>
         <match name="Type" value="Damage" />
     </matches>
