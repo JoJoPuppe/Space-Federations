@@ -1,8 +1,15 @@
-def start(cards):
-    cards = table.create('31000a40-f835-4d50-8e76-d41266250004', 6, 100, quantity = 2, persist = True)
+def start(table, x = 0, y = 0):
+    cards = table.create('31000a40-f835-4d50-8e76-d41266250004', 6, 100, quantity = 6, persist = True)
     for card in cards:
         notify("{} created {}.".format(me, card))
-        cards.moveTo(me.hand)
+        card.moveTo(me.piles['Base'])
+    cards = table.create('31000a40-f835-4d50-8e76-d41266250011', 26, 100, quantity = 6, persist = True)
+    for card in cards:
+        notify("{} created {}.".format(me, card))
+        card.moveTo(me.piles['Base'])
+        me.piles['Base'].shuffle()
+        shared.piles['Market'].shuffle()
+	
 
 def sitstand(group, x = 0, y = 0):
     isstanding = me.getGlobalVariable("standing")
@@ -92,7 +99,7 @@ def highlightcard(card, x = 0, y = 0):
     notify('{} highlights {}'.format(me, card))
 
 def draw(group, x = 0, y = 0):
-    if len(shared.Deck) == 0: return
+    if len(me.Deck) == 0: return
     mute()
     shared.Deck[0].moveTo(me.hand)
     notify("{} draws a card.".format(me))
@@ -162,33 +169,16 @@ def mill(group, count = None):
 
 def shuffle(group, x = 0, y = 0):
    mute()
-   shared.Deck.shuffle()
-   if me.isActivePlayer:
-     notify("{} shuffled the deck.".format(me))
-   else:
-     whisper("You are not the active player.")
+   me.piles['Base'].shuffle()
+   notify("{} shuffled the.".format(me))
+   
+def sharedShuffle(group, x = 0, y = 0):
+   mute()
+   shared.piles['Market'].shuffle()
+   notify("{} shuffled.".format(me))
+
 def shuffleIntoDeck(group, x = 0, y = 0):
     mute()
-    for c in group: c.moveTo(me.piles['Deck'])
-    me.piles['Deck'].shuffle()
-    notify("{} shuffled the discard pile into the deck.".format(me))
-
-StandardMarker = ("Marker", "40bba10f-82e5-4f7e-986b-e9c850524f88")
-
-def addanymarker(cards, x = 0, y = 0):
-    mute()
-    marker, quantity = askMarker()
-    if quantity == 0: return
-    for card in cards:
-      card.markers[marker] += quantity
-      notify("{} adds {} {} counters to {}.".format(me, quantity, marker[0], card))
-
-def addmarker(card, x = 0, y = 0):
-    mute()
-    card.markers[StandardMarker] += 1
-    notify("{} adds a marker to {}.".format(me, card))
-
-def removemarker(card, x = 0, y = 0):
-    mute()
-    card.markers[StandardMarker] -= 1
-    notify("{} removes a marker from {}.".format(me, card))
+    for c in group: c.moveTo(me.piles['Base'])
+    me.piles['Base'].shuffle()
+    notify("{} shuffled the service into the base.".format(me))

@@ -3,153 +3,159 @@
         <blocks>
 <!-- Ship Blocks-->
             <block type="text" id="ship_id">
-                <location x="80" y="33" />
-                <text color="#000000" size="20" />
-                <wordwrap height="17" width="230" shrinktofit="True"/>
+                <location x="80" y="40" />
+                <text color="#000000" size="16" />
+				<wordwrap height="30" width="150" align="far" shrinktofit="True"/>
             </block>
             <block type="text" id="ship_text">
-                <location x="70" y="250" />
-                <text color="#000000" size="14" />
-                <wordwrap height="86" width="209" shrinktofit="True" />
+                <location x="110" y="260" />
+                <text color="#000000" size="16" />
+                <wordwrap height="150" width="160" align="center" shrinktofit="True" />
             </block>
             <block type="text" id="ship_cost">
-                <location x="15" y="20"/>
-                <text color="#000000" size="25" />
+                <location x="25" y="8"/>
+                <text color="#FFFFFF" size="30" />
+				<border color="#000000" size="5" />
             </block>
             <block type="text" id="ship_crewreq">
-                <location x="100" y="20"/>
-                <text color="#FFFFFF" size="25" />
-                <border color="#000000" size="1" />
+                <location x="135" y="8"/>
+                <text color="#FFFFFF" size="30" />
+                <border color="#000000" size="5" />
             </block>
             <block type="text" id="ship_att">
-                <location x="22" y="200"/>
-                <text color="#FFFFFF" size="25" />
-                <border color="#000000" size="1" />
+                <location x="60" y="252"/>
+                <text color="#FFFFFF" size="35" />
+                <border color="#000000" size="5" />
             </block>
             <block type="text" id="ship_def">
-                <location x="22" y="220"/>
-                <text color="#FFFFFF" size="25" />
-                <border color="#000000" size="1" />
+                <location x="60" y="291"/>
+                <text color="#FFFFFF" size="35" />
+                <border color="#000000" size="5" />
             </block>
             <block type="text" id="ship_int">
-                <location x="22" y="240"/>
-                <text color="#FFFFFF" size="25" />
-                <border color="#000000" size="1" />
+                <location x="60" y="330"/>
+                <text color="#FFFFFF" size="35" />
+                <border color="#000000" size="5" />
             </block>
             <block type="text" id="ship_sell">
-                <location x="200" y="120"/>
-                <text color="#FFFFFF" size="25" />
-                <border color="#000000" size="1" />
+                <location x="240" y="200"/>
+                <text color="#FFFFFF" size="30" />
+                <border color="#000000" size="5" />
             </block>
 <!-- Event Blocks-->
             <block type="text" id="event_id">
-                <location x="63" y="23" />
-                <text color="#000000" size="17" />
-                <wordwrap height="17" width="230" shrinktofit="True"/>
+                <location x="20" y="40" />
+                <text color="#000000" size="16" />
+				<wordwrap height="30" width="230" align="far" shrinktofit="True"/>
             </block>
             <block type="text" id="event_text">
-                <location x="63" y="358" />
-                <text color="#000000" size="12" />
-                <wordwrap height="86" width="209" shrinktofit="True" />
+                <location x="60" y="260" />
+                <text color="#000000" size="16" />
+                <wordwrap height="150" width="205" align="center" shrinktofit="True" />
             </block>
             <block type="text" id="event_cost">
-                <location x="19" y="386"/>
-                <text color="#000000" size="17" />
+                <location x="22" y="8"/>
+                <text color="#FFFFFF" size="30" />
+				<border color="#000000" size="5" />
             </block>
 <!-- Equipment Blocks-->
             <block type="text" id="equip_id">
-                <location x="63" y="23" />
-                <text color="#000000" size="17" />
-                <wordwrap height="17" width="230" shrinktofit="True"/>
+                <location x="20" y="40" />
+                <text color="#000000" size="16" />
+				<wordwrap height="30" width="230" align="far" shrinktofit="True"/>
             </block>
             <block type="text" id="equip_text">
-                <location x="63" y="358" />
-                <text color="#000000" size="12" />
-                <wordwrap height="86" width="209" shrinktofit="True" />
+                <location x="110" y="260" />
+                <text color="#000000" size="16" />
+                <wordwrap height="150" width="160" align="center" shrinktofit="True" />
             </block>
             <block type="text" id="equip_cost">
-                <location x="19" y="386"/>
-                <text color="#000000" size="17" />
+                <location x="22" y="8"/>
+                <text color="#FFFFFF" size="30" />
+				<border color="#000000" size="5" />
             </block>
             <block type="text" id="equip_sell">
-                <location x="200" y="351"/>
-                <text color="#FFFFFF" size="17" />
-                <border color="#000000" size="1" />
+                <location x="240" y="200"/>
+                <text color="#FFFFFF" size="30" />
+                <border color="#000000" size="5" />
             </block>
             <block type="text" id="equip_att">
-                <location x="19" y="451"/>
-                <text color="#FFFFFF" size="17" />
-                <border color="#000000" size="1" />
+                <location x="60" y="252"/>
+                <text color="#FFFFFF" size="35" />
+                <border color="#000000" size="5" />
             </block>
             <block type="text" id="equip_def">
-                <location x="19" y="511"/>
-                <text color="#FFFFFF" size="17" />
-                <border color="#000000" size="1" />
+                <location x="60" y="291"/>
+                <text color="#FFFFFF" size="35" />
+                <border color="#000000" size="5" />
             </block>
             <block type="text" id="equip_int">
-                <location x="19" y="551"/>
-                <text color="#FFFFFF" size="17" />
-                <border color="#000000" size="1" />
+                <location x="60" y="330"/>
+                <text color="#FFFFFF" size="35" />
+                <border color="#000000" size="5" />
             </block>
  <!-- Structure Blocks-->
             <block type="text" id="struc_id">
-                <location x="63" y="23" />
-                <text color="#000000" size="17" />
-                <wordwrap height="17" width="230" shrinktofit="True"/>
+                <location x="20" y="40" />
+                <text color="#000000" size="16" />
+				<wordwrap height="30" width="230" align="far" shrinktofit="True"/>
             </block>
             <block type="text" id="struc_text">
-                <location x="63" y="358" />
-                <text color="#000000" size="12" />
-                <wordwrap height="86" width="209" shrinktofit="True" />
+                <location x="60" y="260" />
+                <text color="#000000" size="16" />
+                <wordwrap height="150" width="205" align="center" shrinktofit="True" />
             </block>
             <block type="text" id="struc_cost">
-                <location x="19" y="13"/>
-                <text color="#000000" size="30" />
+                <location x="22" y="8"/>
+                <text color="#FFFFFF" size="30" />
+				<border color="#000000" size="5" />
             </block>
             <block type="text" id="struc_crewreq">
-                <location x="150" y="13"/>
+                <location x="135" y="8"/>
                 <text color="#FFFFFF" size="30" />
-                <border color="#000000" size="2" />
+                <border color="#000000" size="5" />
             </block>
 <!-- Crew Blocks-->
             <block type="text" id="crew_id">
-                <location x="63" y="23" />
-                <text color="#000000" size="17" />
-                <wordwrap height="17" width="230" shrinktofit="True"/>
+                <location x="20" y="40" />
+                <text color="#000000" size="16" />
+				<wordwrap height="30" width="230" align="far" shrinktofit="True"/>
             </block>
             <block type="text" id="crew_text">
-                <location x="63" y="358" />
-                <text color="#000000" size="12" />
-                <wordwrap height="86" width="209" shrinktofit="True" />
+                <location x="110" y="260" />
+                <text color="#000000" size="16" />
+                <wordwrap height="150" width="160" align="center" shrinktofit="True" />
             </block>
             <block type="text" id="crew_cost">
-                <location x="19" y="386"/>
-                <text color="#000000" size="17" />
+                <location x="22" y="8"/>
+                <text color="#FFFFFF" size="30" />
+				<border color="#000000" size="5" />
             </block>
             <block type="text" id="crew_sell">
-                <location x="200" y="351"/>
-                <text color="#FFFFFF" size="17" />
-                <border color="#000000" size="1" />
+                <location x="240" y="200"/>
+                <text color="#FFFFFF" size="30" />
+                <border color="#000000" size="5" />
             </block>
             <block type="text" id="crew_crewgen">
-                <location x="19" y="451"/>
-                <text color="#FFFFFF" size="17" />
-                <border color="#000000" size="1" />
+                <location x="60" y="335"/>
+                <text color="#FFFFFF" size="35" />
+                <border color="#000000" size="5" />
             </block>
   <!-- Damage Blocks-->
             <block type="text" id="damage_id">
-                <location x="63" y="23" />
-                <text color="#000000" size="17" />
-                <wordwrap height="17" width="230" shrinktofit="True"/>
+                <location x="20" y="40" />
+                <text color="#000000" size="16" />
+				<wordwrap height="30" width="230" align="far" shrinktofit="True"/>
             </block>
             <block type="text" id="damage_text">
-                <location x="63" y="358" />
-                <text color="#000000" size="12" />
-                <wordwrap height="86" width="209" shrinktofit="True" />
+                <location x="60" y="260" />
+                <text color="#000000" size="16" />
+                <wordwrap height="150" width="205" align="center" shrinktofit="True" />
             </block>
             <block type="text" id="damage_cost">
-                <location x="19" y="386"/>
-                <text color="#000000" size="17" />
+                <location x="22" y="8"/>
+                <text color="#FFFFFF" size="30" />
+				<border color="#000000" size="5" />
             </block>
         </blocks>
 <!-- SHIP TEMPLATES -->
@@ -162,7 +168,7 @@
             <property name="Text" />
         </link>
         <link block="ship_id" separator=" ">
-            <property name="Name" />
+            <property name="Nick" />
         </link>
         <link block="ship_cost" separator=" ">
             <property name="Cost" />
@@ -194,7 +200,7 @@
             <property name="Text" />
         </link>
         <link block="event_id" separator=" ">
-            <property name="Name" />
+            <property name="Nick" />
         </link>
         <link block="event_cost" separator=" ">
             <property name="Cost" />
@@ -211,7 +217,7 @@
             <property name="Text" />
         </link>
         <link block="equip_id" separator=" ">
-            <property name="Name" />
+            <property name="Nick" />
         </link>
         <link block="equip_cost" separator=" ">
             <property name="Cost" />
@@ -240,7 +246,7 @@
             <property name="Text" />
         </link>
         <link block="struc_id" separator=" ">
-            <property name="Name" />
+            <property name="Nick" />
         </link>
         <link block="struc_cost" separator=" ">
             <property name="Cost" />
@@ -260,7 +266,7 @@
             <property name="Text" />
         </link>
         <link block="crew_id" separator=" ">
-            <property name="Name" />
+            <property name="Nick" />
         </link>
         <link block="crew_cost" separator=" ">
             <property name="Cost" />
@@ -283,7 +289,7 @@
             <property name="Text" />
         </link>
         <link block="damage_id" separator=" ">
-            <property name="Name" />
+            <property name="Nick" />
         </link>
         <link block="damage_cost" separator=" ">
             <property name="Cost" />
