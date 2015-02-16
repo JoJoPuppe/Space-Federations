@@ -1,5 +1,9 @@
 def start(table, x = 0, y = 0):
-    cards = table.create('31000a40-f835-4d50-8e76-d41266250004', 6, 100, quantity = 6, persist = True)
+    cards = table.create('31000a40-f835-4d50-8e76-d41266250004', 6, 100, quantity = 4, persist = True)
+    for card in cards:
+        notify("{} created {}.".format(me, card))
+        card.moveTo(me.piles['Base'])
+    cards = table.create('31000a40-f835-4d50-8e76-d41266250000', 6, 100, quantity = 2, persist = True)
     for card in cards:
         notify("{} created {}.".format(me, card))
         card.moveTo(me.piles['Base'])
@@ -49,7 +53,7 @@ def interrupt(group, x = 0, y = 0):
     notify('{} interrupts the game.'.format(me))
 
 def passturn(group, x = 0, y = 0):
-    notify('{} passes.'.format(me))
+    notify('{} End TURN'.format(me))
 
 def tap(card, x = 0, y = 0):
   mute()
