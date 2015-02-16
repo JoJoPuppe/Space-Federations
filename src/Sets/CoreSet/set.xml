@@ -5,7 +5,7 @@
  	<card id="31000a40-f835-4d50-8e76-d41266250000" name="Fighter">
 		<property name="Cost" value="3" />
 		<property name="Type" value="Ship" />
-		<property name="Nick" value="Hornet" />
+		<property name="Nick" value="Fighter" />
 		<property name="Keyword" value="Fighter" />
 		<property name="Crew Requirement" value="2" />
 		<property name="Crew" value="" />
@@ -18,7 +18,7 @@
 	<card id="31000a40-f835-4d50-8e76-d41266250001" name="Corvette">
 		<property name="Cost" value="4" />
 		<property name="Type" value="Ship" />
-		<property name="Nick" value="Skyraiser" />
+		<property name="Nick" value="Corvette" />
 		<property name="Keyword" value="Corvette" />
 		<property name="Crew Requirement" value="3" />
 		<property name="Crew" value="" />
@@ -31,7 +31,7 @@
 	<card id="31000a40-f835-4d50-8e76-d41266250002" name="Frigate">
 		<property name="Cost" value="7" />
 		<property name="Type" value="Ship" />
-		<property name="Nick" value="Battlehawk" />
+		<property name="Nick" value="Frigate" />
 		<property name="Keyword" value="Frigate" />
 		<property name="Crew Requirement" value="6" />
 		<property name="Crew" value="" />
@@ -44,7 +44,7 @@
 	<card id="31000a40-f835-4d50-8e76-d41266250003" name="Destroyer">
 		<property name="Cost" value="10" />
 		<property name="Type" value="Ship" />
-		<property name="Nick" value="Lumberjack" />
+		<property name="Nick" value="Destroyer" />
 		<property name="Keyword" value="Destroyer" />
 		<property name="Crew Requirement" value="10" />
 		<property name="Crew" value="" />
@@ -70,7 +70,7 @@
 	<card id="31000a40-f835-4d50-8e76-d41266250005" name="Mining Asteroid">
 		<property name="Cost" value="5" />
 		<property name="Type" value="Structure" />
-		<property name="Nick" value="Minig Base 201" />
+		<property name="Nick" value="Minig Asteroid" />
 		<property name="Keyword" value="Resource Generator" />
 		<property name="Crew Requirement" value="1" />
 		<property name="Crew" value="" />
@@ -83,7 +83,7 @@
 	<card id="31000a40-f835-4d50-8e76-d41266250006" name="Command Station">
 		<property name="Cost" value="8" />
 		<property name="Type" value="Structure" />
-		<property name="Nick" value="Command Station Sigma" />
+		<property name="Nick" value="Command Station" />
 		<property name="Keyword" value="" />
 		<property name="Crew Requirement" value="1" />
 		<property name="Crew" value="" />
@@ -96,7 +96,7 @@
 	<card id="31000a40-f835-4d50-8e76-d41266250007" name="Acadamy">
 		<property name="Cost" value="5" />
 		<property name="Type" value="Structure" />
-		<property name="Nick" value="Federal Recruiting Acadamy South" />
+		<property name="Nick" value="Academy" />
 		<property name="Keyword" value="Crew Generator" />
 		<property name="Crew Requirement" value="0" />
 		<property name="Crew" value="" />
@@ -109,7 +109,7 @@
 	<card id="31000a40-f835-4d50-8e76-d41266250008" name="Defense Platform">
 		<property name="Cost" value="3" />
 		<property name="Type" value="Structure" />
-		<property name="Nick" value="Laser Defense Platform" />
+		<property name="Nick" value="Defense Platform" />
 		<property name="Keyword" value="Defense" />
 		<property name="Crew Requirement" value="1" />
 		<property name="Crew" value="" />
@@ -122,7 +122,7 @@
 	<card id="31000a40-f835-4d50-8e76-d41266250009" name="Tradepost">
 		<property name="Cost" value="6" />
 		<property name="Type" value="Structure" />
-		<property name="Nick" value="Tradepost Mars" />
+		<property name="Nick" value="Trade Post" />
 		<property name="Keyword" value="Trade" />
 		<property name="Crew Requirement" value="1" />
 		<property name="Crew" value="" />
@@ -135,7 +135,7 @@
 	<card id="31000a40-f835-4d50-8e76-d41266250010" name="Research Station">
 		<property name="Cost" value="6" />
 		<property name="Type" value="Structure" />
-		<property name="Nick" value="FERES - Federal Research Station" />
+		<property name="Nick" value="Research Station" />
 		<property name="Keyword" value="Trade" />
 		<property name="Crew Requirement" value="1" />
 		<property name="Crew" value="" />
@@ -148,7 +148,7 @@
 	<card id="31000a40-f835-4d50-8e76-d41266250011" name="Pilot">
 		<property name="Cost" value="2" />
 		<property name="Type" value="Crew" />
-		<property name="Nick" value="Delta Squad Pilot" />
+		<property name="Nick" value="Pilot" />
 		<property name="Keyword" value="Pilot" />
 		<property name="Crew Requirement" value="" />
 		<property name="Crew" value="1" />
@@ -161,7 +161,7 @@
 	<card id="31000a40-f835-4d50-8e76-d41266250012" name="Captain">
 		<property name="Cost" value="4" />
 		<property name="Type" value="Crew" />
-		<property name="Nick" value="Bridge Officer" />
+		<property name="Nick" value="Captain" />
 		<property name="Keyword" value="Captain" />
 		<property name="Crew Requirement" value="" />
 		<property name="Crew" value="3" />
@@ -174,7 +174,7 @@
 	<card id="31000a40-f835-4d50-8e76-d41266250013" name="Admiral">
 		<property name="Cost" value="7" />
 		<property name="Type" value="Crew" />
-		<property name="Nick" value="Fleet Commander" />
+		<property name="Nick" value="Admiral" />
 		<property name="Keyword" value="Admiral" />
 		<property name="Crew Requirement" value="" />
 		<property name="Crew" value="5" />
@@ -356,7 +356,7 @@
 	<card id="31000a40-f835-4d50-8e76-d41266250027" name="Multi Targeting System">
 		<property name="Cost" value="7" />
 		<property name="Type" value="Equipment" />
-		<property name="Nick" value="MTS - Multi-Targeting-System" />
+		<property name="Nick" value="Multi-Targeting-System" />
 		<property name="Keyword" value="Attack" />
 		<property name="Crew Requirement" value="" />
 		<property name="Crew" value="" />
@@ -369,7 +369,7 @@
 	<card id="31000a40-f835-4d50-8e76-d41266250028" name="Anti Capitalship Rockets">
 		<property name="Cost" value="6" />
 		<property name="Type" value="Equipment" />
-		<property name="Nick" value="ACR - Anti-Capitalship-Rockets" />
+		<property name="Nick" value="Anti-Capitalship-Rockets" />
 		<property name="Keyword" value="Attack" />
 		<property name="Crew Requirement" value="" />
 		<property name="Crew" value="" />
