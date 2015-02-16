@@ -57,7 +57,7 @@
 	<card id="31000a40-f835-4d50-8e76-d41266250004" name="Resource Ship">
 		<property name="Cost" value="2" />
 		<property name="Type" value="Ship" />
-		<property name="Nick" value="Basic Collector" />
+		<property name="Nick" value="Collector" />
 		<property name="Keyword" value="Resource Ship" />
 		<property name="Crew Requirement" value="2" />
 		<property name="Crew" value="" />
