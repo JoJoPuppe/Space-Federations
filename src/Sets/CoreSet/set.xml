@@ -3,7 +3,7 @@
 
 <cards>
  	<card id="31000a40-f835-4d50-8e76-d41266250000" name="Fighter">
-		<property name="Cost" value="3" />
+		<property name="Cost" value="2" />
 		<property name="Type" value="Ship" />
 		<property name="Nick" value="Fighter" />
 		<property name="Keyword" value="Fighter" />
@@ -66,6 +66,19 @@
 		<property name="Initiative" value="1" />
 		<property name="Salvage" value="1" />
 		<property name="Text" value="when deployed: get +1 Credit" />
+	</card>
+		<card id="31000a40-f835-4d50-8e76-d41266250030" name="Troop Transporter">
+		<property name="Cost" value="5" />
+		<property name="Type" value="Ship" />
+		<property name="Nick" value="Troop Transporter" />
+		<property name="Keyword" value="Frigate" />
+		<property name="Crew Requirement" value="3" />
+		<property name="Crew" value="" />
+		<property name="Defense" value="6" />
+		<property name="Attack" value="0" />
+		<property name="Initiative" value="1" />
+		<property name="Salvage" value="2" />
+		<property name="Text" value="get +2 Crew" />
 	</card>
 	<card id="31000a40-f835-4d50-8e76-d41266250005" name="Mining Asteroid">
 		<property name="Cost" value="5" />
