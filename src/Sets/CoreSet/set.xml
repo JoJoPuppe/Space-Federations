@@ -72,7 +72,7 @@
 		<property name="Type" value="Ship" />
 		<property name="Nick" value="Troop Transporter" />
 		<property name="Keyword" value="Frigate" />
-		<property name="Crew Requirement" value="3" />
+		<property name="Crew Requirement" value="4" />
 		<property name="Crew" value="" />
 		<property name="Defense" value="6" />
 		<property name="Attack" value="0" />
