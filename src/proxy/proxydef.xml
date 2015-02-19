@@ -115,6 +115,11 @@
                 <text color="#FFFFFF" size="30" />
                 <border color="#000000" size="5" />
             </block>
+            <block type="text" id="struc_def">
+                <location x="60" y="335"/>
+                <text color="#FFFFFF" size="35" />
+                <border color="#000000" size="5" />
+            </block>
 <!-- Crew Blocks-->
             <block type="text" id="crew_id">
                 <location x="20" y="40" />
@@ -253,6 +258,9 @@
         </link>
         <link block="struc_crewreq" separator=" ">
             <property name="Crew Requirement" />
+        </link>
+        <link block="struc_def" separator=" ">
+            <property name="Defense" />
         </link>
     </textblocks>
     </template>
