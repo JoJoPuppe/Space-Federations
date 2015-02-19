@@ -13,10 +13,10 @@
 		<property name="Attack" value="1" />
 		<property name="Initiative" value="2" />
 		<property name="Salvage" value="1" />
-		<property name="Text" value="Fast moving Interceptor" />
+		<property name="Text" value="If you sell this card draw 1 card" />
 	</card>
 	<card id="31000a40-f835-4d50-8e76-d41266250001" name="Corvette">
-		<property name="Cost" value="4" />
+		<property name="Cost" value="3" />
 		<property name="Type" value="Ship" />
 		<property name="Nick" value="Corvette" />
 		<property name="Keyword" value="Corvette" />
@@ -29,24 +29,24 @@
 		<property name="Text" value="Well balanced Battelship" />
 	</card>
 	<card id="31000a40-f835-4d50-8e76-d41266250002" name="Frigate">
-		<property name="Cost" value="7" />
+		<property name="Cost" value="5" />
 		<property name="Type" value="Ship" />
 		<property name="Nick" value="Frigate" />
 		<property name="Keyword" value="Frigate" />
 		<property name="Crew Requirement" value="6" />
 		<property name="Crew" value="" />
-		<property name="Defense" value="5" />
+		<property name="Defense" value="4" />
 		<property name="Attack" value="4" />
-		<property name="Initiative" value="2" />
+		<property name="Initiative" value="1" />
 		<property name="Salvage" value="3" />
 		<property name="Text" value="All time Favorite" />
 	</card>
 	<card id="31000a40-f835-4d50-8e76-d41266250003" name="Destroyer">
-		<property name="Cost" value="10" />
+		<property name="Cost" value="7" />
 		<property name="Type" value="Ship" />
 		<property name="Nick" value="Destroyer" />
 		<property name="Keyword" value="Destroyer" />
-		<property name="Crew Requirement" value="10" />
+		<property name="Crew Requirement" value="9" />
 		<property name="Crew" value="" />
 		<property name="Defense" value="6" />
 		<property name="Attack" value="6" />
@@ -55,7 +55,7 @@
 		<property name="Text" value="Conflict Solver" />
 	</card>
 	<card id="31000a40-f835-4d50-8e76-d41266250004" name="Resource Ship">
-		<property name="Cost" value="2" />
+		<property name="Cost" value="1" />
 		<property name="Type" value="Ship" />
 		<property name="Nick" value="Collector" />
 		<property name="Keyword" value="Resource Ship" />
@@ -68,7 +68,7 @@
 		<property name="Text" value="when deployed: get +1 Credit" />
 	</card>
 		<card id="31000a40-f835-4d50-8e76-d41266250030" name="Troop Transporter">
-		<property name="Cost" value="5" />
+		<property name="Cost" value="4" />
 		<property name="Type" value="Ship" />
 		<property name="Nick" value="Troop Transporter" />
 		<property name="Keyword" value="Frigate" />
@@ -81,7 +81,7 @@
 		<property name="Text" value="get +2 Crew" />
 	</card>
 	<card id="31000a40-f835-4d50-8e76-d41266250005" name="Mining Asteroid">
-		<property name="Cost" value="5" />
+		<property name="Cost" value="4" />
 		<property name="Type" value="Structure" />
 		<property name="Nick" value="Minig Asteroid" />
 		<property name="Keyword" value="Resource Generator" />
@@ -91,7 +91,7 @@
 		<property name="Attack" value="" />
 		<property name="Initiative" value="" />
 		<property name="Salvage" value="" />
-		<property name="Text" value="Generating every Round 1 Credit" />
+		<property name="Text" value="Generating every Round 2 Credit" />
 	</card>
 	<card id="31000a40-f835-4d50-8e76-d41266250006" name="Command Station">
 		<property name="Cost" value="8" />
@@ -104,7 +104,7 @@
 		<property name="Attack" value="" />
 		<property name="Initiative" value="" />
 		<property name="Salvage" value="" />
-		<property name="Text" value="All Ships need -1 Crew Points to deploy" />
+		<property name="Text" value="All Ships need -1 Crew Points when they are deployed" />
 	</card>
 	<card id="31000a40-f835-4d50-8e76-d41266250007" name="Acadamy">
 		<property name="Cost" value="5" />
@@ -120,7 +120,7 @@
 		<property name="Text" value="Generating every Round 1 Pilot" />
 	</card>
 	<card id="31000a40-f835-4d50-8e76-d41266250008" name="Defense Platform">
-		<property name="Cost" value="3" />
+		<property name="Cost" value="1" />
 		<property name="Type" value="Structure" />
 		<property name="Nick" value="Defense Platform" />
 		<property name="Keyword" value="Defense" />
@@ -146,17 +146,17 @@
 		<property name="Text" value="When build: once per turn trade one card of your hand with cost the same or lower with the market" />
 	</card>
 	<card id="31000a40-f835-4d50-8e76-d41266250010" name="Research Station">
-		<property name="Cost" value="6" />
+		<property name="Cost" value="7" />
 		<property name="Type" value="Structure" />
 		<property name="Nick" value="Research Station" />
-		<property name="Keyword" value="Trade" />
+		<property name="Keyword" value="Structure" />
 		<property name="Crew Requirement" value="1" />
 		<property name="Crew" value="" />
 		<property name="Defense" value="" />
 		<property name="Attack" value="" />
 		<property name="Initiative" value="" />
 		<property name="Salvage" value="" />
-		<property name="Text" value="When build: once per turn pay 3Cr to upgrade 1 Fighter from your hand to 1 Corvette or 1 Corvette to a Frigate and put them in the discardpile" />
+		<property name="Text" value="increase max handsize +1" />
 	</card>
 	<card id="31000a40-f835-4d50-8e76-d41266250011" name="Pilot">
 		<property name="Cost" value="2" />
@@ -198,7 +198,7 @@
 		<property name="Text" value="if sold draw 2 cards" />
 	</card>
 	<card id="31000a40-f835-4d50-8e76-d41266250014" name="Wormhole">
-		<property name="Cost" value="3" />
+		<property name="Cost" value="2" />
 		<property name="Type" value="Event" />
 		<property name="Nick" value="Wormhole" />
 		<property name="Keyword" value="Event" />
@@ -208,10 +208,10 @@
 		<property name="Attack" value="" />
 		<property name="Initiative" value="" />
 		<property name="Salvage" value="" />
-		<property name="Text" value="Discard 3 cards and draw 3 new ones" />
+		<property name="Text" value="Discard 2 cards and draw 3 new ones" />
 	</card>
 	<card id="31000a40-f835-4d50-8e76-d41266250015" name="Hyperjump">
-		<property name="Cost" value="3" />
+		<property name="Cost" value="2" />
 		<property name="Type" value="Event" />
 		<property name="Nick" value="Hyperjump" />
 		<property name="Keyword" value="Event" />
@@ -224,7 +224,7 @@
 		<property name="Text" value="Discard X cards, where X is the Value you can add to your Initiativ" />
 	</card>
 	<card id="31000a40-f835-4d50-8e76-d41266250016" name="Alliance Backup">
-		<property name="Cost" value="3" />
+		<property name="Cost" value="1" />
 		<property name="Type" value="Event" />
 		<property name="Nick" value="Alliance Backup" />
 		<property name="Keyword" value="Event" />
@@ -237,7 +237,7 @@
 		<property name="Text" value="Draw 2 cards" />
 	</card>
 	<card id="31000a40-f835-4d50-8e76-d41266250017" name="Federal Police">
-		<property name="Cost" value="3" />
+		<property name="Cost" value="2" />
 		<property name="Type" value="Event" />
 		<property name="Nick" value="Federal Police" />
 		<property name="Keyword" value="Event" />
@@ -263,7 +263,7 @@
 		<property name="Text" value="for this turn add a 4th column to the market" />
 	</card>
 	<card id="31000a40-f835-4d50-8e76-d41266250019" name="Construction Bay Support">
-		<property name="Cost" value="6" />
+		<property name="Cost" value="4" />
 		<property name="Type" value="Event" />
 		<property name="Nick" value="Construction Bay Support" />
 		<property name="Keyword" value="Event" />
@@ -273,10 +273,10 @@
 		<property name="Attack" value="" />
 		<property name="Initiative" value="" />
 		<property name="Salvage" value="" />
-		<property name="Text" value="pay 1 build 2" />
+		<property name="Text" value="discard X cards and get +X Credit" />
 	</card>
 	<card id="31000a40-f835-4d50-8e76-d41266250020" name="Corruption">
-		<property name="Cost" value="5" />
+		<property name="Cost" value="6" />
 		<property name="Type" value="Event" />
 		<property name="Nick" value="Corruption" />
 		<property name="Keyword" value="Event" />
@@ -299,7 +299,7 @@
 		<property name="Attack" value="" />
 		<property name="Initiative" value="" />
 		<property name="Salvage" value="" />
-		<property name="Text" value="Repair 1 damage in your hand" />
+		<property name="Text" value="Repair 1 damage in your hand and / or draw 1 card" />
 	</card>
 	<card id="31000a40-f835-4d50-8e76-d41266250022" name="1st Priority Order">
 		<property name="Cost" value="4" />
@@ -315,7 +315,7 @@
 		<property name="Text" value="Draw 3 cards. Is 1 of them a crew card keep it and put the other cards in any order under your deck" />
 	</card>
 	<card id="31000a40-f835-4d50-8e76-d41266250023" name="Fleet Payment">
-		<property name="Cost" value="2" />
+		<property name="Cost" value="1" />
 		<property name="Type" value="Event" />
 		<property name="Nick" value="Fleet Payment" />
 		<property name="Keyword" value="Event" />
@@ -367,7 +367,7 @@
 		<property name="Text" value="Feel the speed" />
 	</card>
 	<card id="31000a40-f835-4d50-8e76-d41266250027" name="Multi Targeting System">
-		<property name="Cost" value="7" />
+		<property name="Cost" value="5" />
 		<property name="Type" value="Equipment" />
 		<property name="Nick" value="Multi-Targeting-System" />
 		<property name="Keyword" value="Attack" />
@@ -376,7 +376,7 @@
 		<property name="Defense" value="0" />
 		<property name="Attack" value="1*" />
 		<property name="Initiative" value="0" />
-		<property name="Salvage" value="3" />
+		<property name="Salvage" value="2" />
 		<property name="Text" value="Equipable for CORVETTE and higher. For every Enemy fighter get +1 ATK" />
 	</card>
 	<card id="31000a40-f835-4d50-8e76-d41266250028" name="Anti Capitalship Rockets">
@@ -390,7 +390,7 @@
 		<property name="Attack" value="2*" />
 		<property name="Initiative" value="0" />
 		<property name="Salvage" value="2" />
-		<property name="Text" value="equipable only Fighter. For every Enemy CTS get +2 ATK" />
+		<property name="Text" value="equipable only Fighter. For every Enemy Des or Frig get +2 ATK" />
 	</card>
 	<card id="31000a40-f835-4d50-8e76-d41266250029" name="Damage">
 		<property name="Cost" value="1" />
@@ -403,7 +403,7 @@
 		<property name="Attack" value="" />
 		<property name="Initiative" value="" />
 		<property name="Salvage" value="" />
-		<property name="Text" value="can repaired with the technician" />
+		<property name="Text" value="can be repaired with the technician" />
 	</card>
 </cards>
 
