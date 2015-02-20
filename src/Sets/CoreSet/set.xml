@@ -3,7 +3,7 @@
 
 <cards>
  	<card id="31000a40-f835-4d50-8e76-d41266250000" name="Fighter">
-		<property name="Cost" value="2" />
+		<property name="Cost" value="1" />
 		<property name="Type" value="Ship" />
 		<property name="Nick" value="Fighter" />
 		<property name="Keyword" value="Fighter" />
@@ -16,7 +16,7 @@
 		<property name="Text" value="if you sell this card draw 1 card" />
 	</card>
 	<card id="31000a40-f835-4d50-8e76-d41266250001" name="Corvette">
-		<property name="Cost" value="3" />
+		<property name="Cost" value="2" />
 		<property name="Type" value="Ship" />
 		<property name="Nick" value="Corvette" />
 		<property name="Keyword" value="Corvette" />
@@ -29,7 +29,7 @@
 		<property name="Text" value="Well balanced Battelship" />
 	</card>
 	<card id="31000a40-f835-4d50-8e76-d41266250002" name="Frigate">
-		<property name="Cost" value="5" />
+		<property name="Cost" value="3" />
 		<property name="Type" value="Ship" />
 		<property name="Nick" value="Frigate" />
 		<property name="Keyword" value="Frigate" />
@@ -42,7 +42,7 @@
 		<property name="Text" value="All time Favorite" />
 	</card>
 	<card id="31000a40-f835-4d50-8e76-d41266250031" name="Ceramite Bomb Frigate">
-		<property name="Cost" value="5" />
+		<property name="Cost" value="3" />
 		<property name="Type" value="Ship" />
 		<property name="Nick" value="Ceramite Bomb Frigate" />
 		<property name="Keyword" value="Frigate" />
@@ -55,7 +55,7 @@
 		<property name="Text" value="When this Ship is attacking and you had the Inititive you can destroy one Enemy Structure" />
 	</card>
 	<card id="31000a40-f835-4d50-8e76-d41266250003" name="Destroyer">
-		<property name="Cost" value="7" />
+		<property name="Cost" value="4" />
 		<property name="Type" value="Ship" />
 		<property name="Nick" value="Destroyer" />
 		<property name="Keyword" value="Destroyer" />
@@ -81,7 +81,7 @@
 		<property name="Text" value="when deployed: get +1 Credit every turn" />
 	</card>
 		<card id="31000a40-f835-4d50-8e76-d41266250030" name="Troop Transporter">
-		<property name="Cost" value="4" />
+		<property name="Cost" value="3" />
 		<property name="Type" value="Ship" />
 		<property name="Nick" value="Troop Transporter" />
 		<property name="Keyword" value="Frigate" />
@@ -94,7 +94,7 @@
 		<property name="Text" value="get +2 Crew Points" />
 	</card>
 	<card id="31000a40-f835-4d50-8e76-d41266250005" name="Mining Asteroid">
-		<property name="Cost" value="4" />
+		<property name="Cost" value="1" />
 		<property name="Type" value="Structure" />
 		<property name="Nick" value="Minig Asteroid" />
 		<property name="Keyword" value="Resource Generator" />
@@ -107,7 +107,7 @@
 		<property name="Text" value="Generating every Round 2 Credit" />
 	</card>
 	<card id="31000a40-f835-4d50-8e76-d41266250006" name="Command Station">
-		<property name="Cost" value="8" />
+		<property name="Cost" value="4" />
 		<property name="Type" value="Structure" />
 		<property name="Nick" value="Command Station" />
 		<property name="Keyword" value="" />
@@ -120,7 +120,7 @@
 		<property name="Text" value="All Ships need -1 Crew Points when they are deployed" />
 	</card>
 	<card id="31000a40-f835-4d50-8e76-d41266250007" name="Space Fortress">
-		<property name="Cost" value="8" />
+		<property name="Cost" value="4" />
 		<property name="Type" value="Structure" />
 		<property name="Nick" value="Space Fortress" />
 		<property name="Keyword" value="Crew Generator" />
@@ -139,14 +139,14 @@
 		<property name="Keyword" value="Defense" />
 		<property name="Crew Requirement" value="1" />
 		<property name="Crew" value="" />
-		<property name="Defense" value="6" />
+		<property name="Defense" value="2" />
 		<property name="Attack" value="" />
 		<property name="Initiative" value="" />
 		<property name="Salvage" value="" />
 		<property name="Text" value="" />
 	</card>
 	<card id="31000a40-f835-4d50-8e76-d41266250009" name="Tradepost">
-		<property name="Cost" value="6" />
+		<property name="Cost" value="3" />
 		<property name="Type" value="Structure" />
 		<property name="Nick" value="Trade Post" />
 		<property name="Keyword" value="Trade" />
@@ -159,7 +159,7 @@
 		<property name="Text" value="Everytime when your Opponet spend 6 or more Credits at the Market per turn get next turn 2 extra credits" />
 	</card>
 	<card id="31000a40-f835-4d50-8e76-d41266250010" name="Research Station">
-		<property name="Cost" value="7" />
+		<property name="Cost" value="3" />
 		<property name="Type" value="Structure" />
 		<property name="Nick" value="Research Station" />
 		<property name="Keyword" value="Structure" />
@@ -172,7 +172,7 @@
 		<property name="Text" value="increase max handsize +1" />
 	</card>
 	<card id="31000a40-f835-4d50-8e76-d41266250032" name="Construction Bay">
-		<property name="Cost" value="10" />
+		<property name="Cost" value="4" />
 		<property name="Type" value="Structure" />
 		<property name="Nick" value="Construction Bay" />
 		<property name="Keyword" value="Structure" />
@@ -185,7 +185,7 @@
 		<property name="Text" value="Deploying Ships Cost -2" />
 	</card>
 	<card id="31000a40-f835-4d50-8e76-d41266250033" name="Federal Resupplies">
-		<property name="Cost" value="10" />
+		<property name="Cost" value="4" />
 		<property name="Type" value="Structure" />
 		<property name="Nick" value="Federal Resupplies" />
 		<property name="Keyword" value="Structure" />
@@ -198,7 +198,7 @@
 		<property name="Text" value="get each turn 1 Credit for every deployed Ship" />
 	</card>
 	<card id="31000a40-f835-4d50-8e76-d41266250011" name="Pilot">
-		<property name="Cost" value="2" />
+		<property name="Cost" value="1" />
 		<property name="Type" value="Crew" />
 		<property name="Nick" value="Pilot" />
 		<property name="Keyword" value="Pilot" />
@@ -211,7 +211,7 @@
 		<property name="Text" value="if you have a squad of 5 pilots deployed get + 2 crew points" />
 	</card>
 	<card id="31000a40-f835-4d50-8e76-d41266250012" name="Captain">
-		<property name="Cost" value="4" />
+		<property name="Cost" value="2" />
 		<property name="Type" value="Crew" />
 		<property name="Nick" value="Captain" />
 		<property name="Keyword" value="Captain" />
@@ -224,7 +224,7 @@
 		<property name="Text" value="if sold draw 1 card" />
 	</card>
 	<card id="31000a40-f835-4d50-8e76-d41266250034" name="1. Officer">
-		<property name="Cost" value="4" />
+		<property name="Cost" value="3" />
 		<property name="Type" value="Crew" />
 		<property name="Nick" value="1. Officer" />
 		<property name="Keyword" value="Captain" />
@@ -237,7 +237,7 @@
 		<property name="Text" value="when deployed get +1 Credit every turn" />
 	</card>
 	<card id="31000a40-f835-4d50-8e76-d41266250013" name="Admiral">
-		<property name="Cost" value="7" />
+		<property name="Cost" value="4" />
 		<property name="Type" value="Crew" />
 		<property name="Nick" value="Admiral" />
 		<property name="Keyword" value="Admiral" />
@@ -250,7 +250,7 @@
 		<property name="Text" value="if sold draw 2 cards" />
 	</card>
 	<card id="31000a40-f835-4d50-8e76-d41266250014" name="Wormhole">
-		<property name="Cost" value="2" />
+		<property name="Cost" value="1" />
 		<property name="Type" value="Event" />
 		<property name="Nick" value="Wormhole" />
 		<property name="Keyword" value="Event" />
@@ -263,7 +263,7 @@
 		<property name="Text" value="Discard 2 cards and draw 3 new ones" />
 	</card>
 	<card id="31000a40-f835-4d50-8e76-d41266250015" name="Hyperjump">
-		<property name="Cost" value="2" />
+		<property name="Cost" value="1" />
 		<property name="Type" value="Event" />
 		<property name="Nick" value="Hyperjump" />
 		<property name="Keyword" value="Event" />
@@ -289,7 +289,7 @@
 		<property name="Text" value="Draw 2 cards" />
 	</card>
 	<card id="31000a40-f835-4d50-8e76-d41266250017" name="Federal Police">
-		<property name="Cost" value="2" />
+		<property name="Cost" value="1" />
 		<property name="Type" value="Event" />
 		<property name="Nick" value="Federal Police" />
 		<property name="Keyword" value="Event" />
@@ -302,7 +302,7 @@
 		<property name="Text" value="your opponent must discard a card" />
 	</card>
 	<card id="31000a40-f835-4d50-8e76-d41266250018" name="Diplomat">
-		<property name="Cost" value="2" />
+		<property name="Cost" value="1" />
 		<property name="Type" value="Event" />
 		<property name="Nick" value="Diplomat" />
 		<property name="Keyword" value="Event" />
@@ -315,7 +315,7 @@
 		<property name="Text" value="for this turn add a 4th column to the market" />
 	</card>
 	<card id="31000a40-f835-4d50-8e76-d41266250019" name="Attack Formation">
-		<property name="Cost" value="5" />
+		<property name="Cost" value="3" />
 		<property name="Type" value="Event" />
 		<property name="Nick" value="Attack Formation" />
 		<property name="Keyword" value="Event" />
@@ -328,7 +328,7 @@
 		<property name="Text" value="for every 2 Discarded Cards add 1 Attack to a Ship in Combat" />
 	</card>
 	<card id="31000a40-f835-4d50-8e76-d41266250020" name="Corruption">
-		<property name="Cost" value="6" />
+		<property name="Cost" value="3" />
 		<property name="Type" value="Event" />
 		<property name="Nick" value="Corruption" />
 		<property name="Keyword" value="Event" />
@@ -341,7 +341,7 @@
 		<property name="Text" value="put a deployed pilot from your opponent in your discard pile" />
 	</card>
 	<card id="31000a40-f835-4d50-8e76-d41266250021" name="Technician">
-		<property name="Cost" value="3" />
+		<property name="Cost" value="1" />
 		<property name="Type" value="Event" />
 		<property name="Nick" value="Technician" />
 		<property name="Keyword" value="Event" />
@@ -354,7 +354,7 @@
 		<property name="Text" value="Repair 1 damage in your hand and / or draw 1 card" />
 	</card>
 	<card id="31000a40-f835-4d50-8e76-d41266250022" name="1st Priority Order">
-		<property name="Cost" value="4" />
+		<property name="Cost" value="2" />
 		<property name="Type" value="Event" />
 		<property name="Nick" value="1st Priority Order" />
 		<property name="Keyword" value="Event" />
@@ -380,7 +380,7 @@
 		<property name="Text" value="Draw 1 card and get 1 Credit" />
 	</card>
 	<card id="31000a40-f835-4d50-8e76-d41266250035" name="Restock">
-		<property name="Cost" value="5" />
+		<property name="Cost" value="2" />
 		<property name="Type" value="Event" />
 		<property name="Nick" value="Restock" />
 		<property name="Keyword" value="Event" />
@@ -393,7 +393,7 @@
 		<property name="Text" value="draw as many cards as structures you have deployed" />
 	</card>
 	<card id="31000a40-f835-4d50-8e76-d41266250036" name="Saboteur">
-		<property name="Cost" value="6" />
+		<property name="Cost" value="2" />
 		<property name="Type" value="Event" />
 		<property name="Nick" value="Saboteur" />
 		<property name="Keyword" value="Event" />
@@ -406,7 +406,7 @@
 		<property name="Text" value="Send 1 deployed Enemy Ship with the current lowest Techtier to the enemy discard pile" />
 	</card>
 	<card id="31000a40-f835-4d50-8e76-d41266250037" name="Remote Detonator">
-		<property name="Cost" value="5" />
+		<property name="Cost" value="2" />
 		<property name="Type" value="Event" />
 		<property name="Nick" value="Remote Detonator" />
 		<property name="Keyword" value="Event" />
@@ -432,7 +432,7 @@
 		<property name="Text" value="at the beginning of your next turn put this card to the discardpile" />
 	</card>
 	<card id="31000a40-f835-4d50-8e76-d41266250025" name="Torpedo launcher">
-		<property name="Cost" value="3" />
+		<property name="Cost" value="2" />
 		<property name="Type" value="Equipment" />
 		<property name="Nick" value="Torpedo Launcher" />
 		<property name="Keyword" value="Attack" />
@@ -445,7 +445,7 @@
 		<property name="Text" value="equipable only Frigate and higher" />
 	</card>
 	<card id="31000a40-f835-4d50-8e76-d41266250026" name="Booster">
-		<property name="Cost" value="3" />
+		<property name="Cost" value="1" />
 		<property name="Type" value="Equipment" />
 		<property name="Nick" value="Booster" />
 		<property name="Keyword" value="Initiative" />
@@ -458,7 +458,7 @@
 		<property name="Text" value="Feel the speed" />
 	</card>
 	<card id="31000a40-f835-4d50-8e76-d41266250027" name="Multi Targeting System">
-		<property name="Cost" value="6" />
+		<property name="Cost" value="2" />
 		<property name="Type" value="Equipment" />
 		<property name="Nick" value="Multi-Targeting-System" />
 		<property name="Keyword" value="Attack" />
@@ -471,7 +471,7 @@
 		<property name="Text" value="Equipable for CORVETTE and higher. For every Enemy fighter get +1 ATK" />
 	</card>
 	<card id="31000a40-f835-4d50-8e76-d41266250028" name="Anti Capitalship Rockets">
-		<property name="Cost" value="5" />
+		<property name="Cost" value="2" />
 		<property name="Type" value="Equipment" />
 		<property name="Nick" value="Anti-Capitalship-Rockets" />
 		<property name="Keyword" value="Attack" />
