@@ -3,11 +3,11 @@ def start(table, x = 0, y = 0):
     for card in cards:
         notify("{} created {}.".format(me, card))
         card.moveTo(me.piles['Base'])
-    cards = table.create('31000a40-f835-4d50-8e76-d41266250000', 6, 100, quantity = 2, persist = True)
+    cards = table.create('31000a40-f835-4d50-8e76-d41266250000', 6, 100, quantity = 3, persist = True)
     for card in cards:
         notify("{} created {}.".format(me, card))
         card.moveTo(me.piles['Base'])
-    cards = table.create('31000a40-f835-4d50-8e76-d41266250011', 26, 100, quantity = 6, persist = True)
+    cards = table.create('31000a40-f835-4d50-8e76-d41266250011', 26, 100, quantity = 7, persist = True)
     for card in cards:
         notify("{} created {}.".format(me, card))
         card.moveTo(me.piles['Base'])
@@ -78,6 +78,15 @@ def discard(card, x = 0, y = 0):
   fromText = " from the table" if src == table else " from their " + src.name
   card.moveTo(me.Discard)
   notify("{} discards {}{}.".format(me, card, fromText))
+  
+def discardRnd(group, x = 0, y = 0):
+  mute()
+  if len(me.hand) == 0 : return 
+  randomCard = len(me.hand)
+  rC = rnd(0, randomCard - 1)
+  notify("{}".format(rC))
+  me.hand[rC].moveTo(me.Discard)
+  notify("{} discards a random Card.".format(me))
 
 def highlightcard(card, x = 0, y = 0):
   mute()

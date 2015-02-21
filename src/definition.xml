@@ -41,6 +41,7 @@
     <counter name="Score" icon="counters/credit.png" />
     <hand name="Hand" shortcut="ctrl+H" visibility="me" ordered="False" width="63" height="88" icon="groups/hand.png">
         <cardaction menu="Discard Card" shortcut="del" execute="discard" />
+		<cardaction menu="Discard Random Card" shortcut="" execute="discardRnd" />
     </hand>
 	<group name="Base" visibility="none" width="63" height="88" icon="groups/base.png">
        	<groupaction menu="Shuffle" shortcut="ctrl+S" execute="shuffleBase" />
