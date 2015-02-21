@@ -1,40 +1,40 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <deck game="d87c3faa-ce1f-41a9-aa58-4224b5221f73" sleeveid="0">
   <section name="Market" shared="True">
-    <card qty="12" id="31000a40-f835-4d50-8e76-d41266250000">Fighter</card>
-	<card qty="8" id="31000a40-f835-4d50-8e76-d41266250001">Corvette</card>
-   	<card qty="6" id="31000a40-f835-4d50-8e76-d41266250002">Frigate</card>
-	<card qty="6" id="31000a40-f835-4d50-8e76-d41266250031">Ceramite Bomb Frigate</card>
-	<card qty="4" id="31000a40-f835-4d50-8e76-d41266250003">Destroyer</card>
+    <card qty="8" id="31000a40-f835-4d50-8e76-d41266250000">Fighter</card>
+	<card qty="6" id="31000a40-f835-4d50-8e76-d41266250001">Corvette</card>
+   	<card qty="4" id="31000a40-f835-4d50-8e76-d41266250002">Frigate</card>
+	<card qty="4" id="31000a40-f835-4d50-8e76-d41266250031">Ceramite Bomb Frigate</card>
+	<card qty="2" id="31000a40-f835-4d50-8e76-d41266250003">Destroyer</card>
 	<card qty="4" id="31000a40-f835-4d50-8e76-d41266250030">Troop Transporter</card>
-	<card qty="8" id="31000a40-f835-4d50-8e76-d41266250004">Resouce Ship</card>
-	<card qty="6" id="31000a40-f835-4d50-8e76-d41266250005">Mining Asteroid</card>
+	<card qty="4" id="31000a40-f835-4d50-8e76-d41266250004">Resouce Ship</card>
+	<card qty="4" id="31000a40-f835-4d50-8e76-d41266250005">Mining Asteroid</card>
 	<card qty="2" id="31000a40-f835-4d50-8e76-d41266250006">Command Station</card>
-	<card qty="4" id="31000a40-f835-4d50-8e76-d41266250007">Space Fortress</card>
-	<card qty="8" id="31000a40-f835-4d50-8e76-d41266250008">Defense Platform</card>
+	<card qty="2" id="31000a40-f835-4d50-8e76-d41266250007">Space Fortress</card>
+	<card qty="6" id="31000a40-f835-4d50-8e76-d41266250008">Defense Platform</card>
 	<card qty="2" id="31000a40-f835-4d50-8e76-d41266250009">Tradepost</card>
-	<card qty="4" id="31000a40-f835-4d50-8e76-d41266250010">Research Station</card>
-	<card qty="4" id="31000a40-f835-4d50-8e76-d41266250032">Construction Bay</card>
-	<card qty="4" id="31000a40-f835-4d50-8e76-d41266250033">Federal Resupplies</card>
-	<card qty="18" id="31000a40-f835-4d50-8e76-d41266250011">Pilot</card>
-	<card qty="14" id="31000a40-f835-4d50-8e76-d41266250012">Captain</card>
-	<card qty="10" id="31000a40-f835-4d50-8e76-d41266250034">1. Officer</card>
-	<card qty="6" id="31000a40-f835-4d50-8e76-d41266250013">Admiral</card>
-	<card qty="4" id="31000a40-f835-4d50-8e76-d41266250014">Wormhole</card>
-	<card qty="4" id="31000a40-f835-4d50-8e76-d41266250015">Hyperjump</card>
+	<card qty="2" id="31000a40-f835-4d50-8e76-d41266250010">Research Station</card>
+	<card qty="2" id="31000a40-f835-4d50-8e76-d41266250032">Construction Bay</card>
+	<card qty="2" id="31000a40-f835-4d50-8e76-d41266250033">Federal Resupplies</card>
+	<card qty="10" id="31000a40-f835-4d50-8e76-d41266250011">Pilot</card>
+	<card qty="4" id="31000a40-f835-4d50-8e76-d41266250012">Captain</card>
+	<card qty="4" id="31000a40-f835-4d50-8e76-d41266250034">1. Officer</card>
+	<card qty="2" id="31000a40-f835-4d50-8e76-d41266250013">Admiral</card>
+	<card qty="2" id="31000a40-f835-4d50-8e76-d41266250014">Wormhole</card>
+	<card qty="2" id="31000a40-f835-4d50-8e76-d41266250015">Hyperjump</card>
 	<card qty="4" id="31000a40-f835-4d50-8e76-d41266250016">Alliance Backup</card>
 	<card qty="2" id="31000a40-f835-4d50-8e76-d41266250017">Federal Police</card>
 	<card qty="2" id="31000a40-f835-4d50-8e76-d41266250018">Diplomat</card>
 	<card qty="2" id="31000a40-f835-4d50-8e76-d41266250019">Attack Formation</card>
 	<card qty="2" id="31000a40-f835-4d50-8e76-d41266250020">Corruption</card>
-	<card qty="6" id="31000a40-f835-4d50-8e76-d41266250021">Technician</card>
-	<card qty="4" id="31000a40-f835-4d50-8e76-d41266250022">1st Priority Order</card>
-	<card qty="6" id="31000a40-f835-4d50-8e76-d41266250023">Fleet Payment</card>
-	<card qty="4" id="31000a40-f835-4d50-8e76-d41266250035">Restock</card>
-	<card qty="4" id="31000a40-f835-4d50-8e76-d41266250036">Saboteur</card>
-	<card qty="4" id="31000a40-f835-4d50-8e76-d41266250037">Remote Detonator</card>
-	<card qty="6" id="31000a40-f835-4d50-8e76-d41266250024">Shield</card>
-	<card qty="3" id="31000a40-f835-4d50-8e76-d41266250025">Torpedo Launcher</card>
+	<card qty="4" id="31000a40-f835-4d50-8e76-d41266250021">Technician</card>
+	<card qty="2" id="31000a40-f835-4d50-8e76-d41266250022">1st Priority Order</card>
+	<card qty="4" id="31000a40-f835-4d50-8e76-d41266250023">Fleet Payment</card>
+	<card qty="2" id="31000a40-f835-4d50-8e76-d41266250035">Restock</card>
+	<card qty="2" id="31000a40-f835-4d50-8e76-d41266250036">Saboteur</card>
+	<card qty="2" id="31000a40-f835-4d50-8e76-d41266250037">Remote Detonator</card>
+	<card qty="4" id="31000a40-f835-4d50-8e76-d41266250024">Shield</card>
+	<card qty="2" id="31000a40-f835-4d50-8e76-d41266250025">Torpedo Launcher</card>
 	<card qty="4" id="31000a40-f835-4d50-8e76-d41266250026">Booster</card>
 	<card qty="2" id="31000a40-f835-4d50-8e76-d41266250027">Multi Targeting System</card>
 	<card qty="2" id="31000a40-f835-4d50-8e76-d41266250028">Anti Capitalship Rockets</card>
